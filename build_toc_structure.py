@@ -125,25 +125,44 @@ def create_top_level_page(title):
         logging.error(f"Error creating top-level page {title}: {e}")
         return None
 
-def create_toggle(notion, parent_id, title, level=1):
+def create_toggle(notion, parent_id, title, level=1, is_heading=False):
     """Create a toggle block with specified title and heading level."""
     try:
-        # Use the paragraph type for toggles as it's more reliable
-        toggle_block = {
-            "object": "block",
-            "type": "toggle",
-            "toggle": {
-                "rich_text": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": title
+        # Use heading toggle for level 1 or if specifically requested
+        if level == 1 or is_heading:
+            toggle_block = {
+                "object": "block",
+                "type": "heading_1",
+                "heading_1": {
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": title
+                            }
                         }
-                    }
-                ],
-                "color": "default"
+                    ],
+                    "is_toggleable": True,
+                    "color": "default"
+                }
             }
-        }
+        else:
+            # Use the paragraph toggle for other levels
+            toggle_block = {
+                "object": "block",
+                "type": "toggle",
+                "toggle": {
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": title
+                            }
+                        }
+                    ],
+                    "color": "default"
+                }
+            }
         
         response = notion.blocks.children.append(
             block_id=parent_id,
@@ -368,38 +387,120 @@ def add_web_link_to_page(notion, page_id, link_text, link_url):
         logging.error(f"Error adding web link {link_text}: {str(e)}")
         return False
 
-def process_article_content(notion, page_id, article_id):
-    """Process article content to extract and add images and web links."""
-    # Fetch article content
-    content = fetch_article_content(article_id)
+def process_markdown_to_notion_blocks(markdown_text):
+    """Convert markdown text to Notion blocks with proper formatting."""
+    import re
     
-    if not content:
-        logging.error(f"Failed to fetch content for article: {article_id}")
-        return False
+    blocks = []
+    
+    # Split content into paragraphs
+    paragraphs = markdown_text.split('\n\n')
+    
+    for paragraph in paragraphs:
+        paragraph = paragraph.strip()
+        if not paragraph:
+            continue
+            
+        # Check if this is a heading
+        heading_match = re.match(r'^(#+)\s+(.+)$', paragraph)
+        if heading_match:
+            level = len(heading_match.group(1))
+            text = heading_match.group(2)
+            
+            if level == 1:
+                block_type = "heading_1"
+            elif level == 2:
+                block_type = "heading_2"
+            elif level == 3:
+                block_type = "heading_3"
+            else:
+                block_type = "paragraph"  # Fallback for h4+
+                
+            blocks.append({
+                "object": "block",
+                "type": block_type,
+                block_type: {
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": text
+                            }
+                        }
+                    ],
+                    "color": "default"
+                }
+            })
         
-    # Extract and add images
-    images = extract_images_from_markdown(content)
-    for img in images:
-        add_image_to_page(notion, page_id, img["url"], img["caption"])
-        time.sleep(0.5)  # Delay to prevent rate limiting
+        # Check if this is a list item
+        elif paragraph.startswith('* ') or paragraph.startswith('- '):
+            text = paragraph[2:]
+            blocks.append({
+                "object": "block",
+                "type": "bulleted_list_item",
+                "bulleted_list_item": {
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": text
+                            }
+                        }
+                    ],
+                    "color": "default"
+                }
+            })
         
-    # Extract and add web links
-    links = extract_web_links_from_markdown(content)
-    for link in links:
-        add_web_link_to_page(notion, page_id, link["text"], link["url"])
-        time.sleep(0.5)  # Delay to prevent rate limiting
+        # Check if this is a numbered list item
+        elif re.match(r'^\d+\.\s+', paragraph):
+            text = re.sub(r'^\d+\.\s+', '', paragraph)
+            blocks.append({
+                "object": "block",
+                "type": "numbered_list_item",
+                "numbered_list_item": {
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": text
+                            }
+                        }
+                    ],
+                    "color": "default"
+                }
+            })
         
-    return True
+        # Otherwise, it's a regular paragraph
+        else:
+            blocks.append({
+                "object": "block",
+                "type": "paragraph",
+                "paragraph": {
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": paragraph
+                            }
+                        }
+                    ]
+                }
+            })
+    
+    return blocks
 
-def create_article_page(notion, title, article_id):
-    """Create a new article page in Notion and populate it with content."""
+def create_article_page(notion, title, article_id, parent_id=None):
+    """Create a new article page and populate it with content."""
     try:
-        # We need to use the parent page ID where our TOC is
-        parent_page_id = "1c372d5af2de80e08b11cd7748a1467d"
+        # If parent_id is provided, use it as the parent, otherwise use the main page
+        if parent_id:
+            parent_data = {"page_id": parent_id}
+        else:
+            parent_data = {"page_id": "1c372d5af2de80e08b11cd7748a1467d"}
         
         # Create the page
         page_data = {
-            "parent": {"page_id": parent_page_id},
+            "parent": parent_data,
             "properties": {
                 "title": {"title": [{"text": {"content": title}}]}
             }
@@ -432,132 +533,139 @@ def create_article_page(notion, title, article_id):
         content = fetch_article_content(article_id)
         
         if content:
-            # Convert the markdown content to Notion blocks
-            # For now, we'll just add it as a paragraph
-            paragraphs = content.split('\n\n')
-            for paragraph in paragraphs:
-                if paragraph.strip():
-                    notion.blocks.children.append(
-                        block_id=page_id,
-                        children=[{
-                            "object": "block",
-                            "type": "paragraph",
-                            "paragraph": {
-                                "rich_text": [
-                                    {
-                                        "type": "text",
-                                        "text": {
-                                            "content": paragraph.strip()
-                                        }
-                                    }
-                                ]
-                            }
-                        }]
-                    )
-                    time.sleep(0.3)  # Small delay to prevent rate limiting
+            # Process markdown content to Notion blocks with formatting
+            blocks = process_markdown_to_notion_blocks(content)
+            
+            # Add blocks in batches to avoid rate limiting
+            batch_size = 10
+            for i in range(0, len(blocks), batch_size):
+                batch = blocks[i:i+batch_size]
+                notion.blocks.children.append(
+                    block_id=page_id,
+                    children=batch
+                )
+                time.sleep(0.5)  # Small delay to prevent rate limiting
+            
+            # Process images and links
+            images = extract_images_from_markdown(content)
+            for img in images:
+                add_image_to_page(notion, page_id, img["url"], img["caption"])
+                time.sleep(0.5)
+                
+            links = extract_web_links_from_markdown(content)
+            for link in links:
+                add_web_link_to_page(notion, page_id, link["text"], link["url"])
+                time.sleep(0.5)
         
         return page_id
     except Exception as e:
         logging.error(f"Error creating article page {title}: {str(e)}")
         return None
 
-def create_page_link(notion, parent_id, title, article_id, is_child=False, indent_level=0, process_content=True):
-    """Create a link to another page in Notion, checking if it exists first."""
+def create_section_page(notion, title, parent_id=None):
+    """Create a new section page that will contain subsections."""
     try:
-        # Check if we have this page in cache
-        page_id = find_page_by_title(notion, title)
+        # If parent_id is provided, use it as the parent, otherwise use the main page
+        if parent_id:
+            parent_data = {"page_id": parent_id}
+        else:
+            parent_data = {"page_id": "1c372d5af2de80e08b11cd7748a1467d"}
         
+        # Create the page
+        page_data = {
+            "parent": parent_data,
+            "properties": {
+                "title": {"title": [{"text": {"content": title}}]}
+            }
+        }
+        
+        response = notion.pages.create(**page_data)
+        page_id = response.get("id")
+        logging.info(f"Created new section page: {title} with ID: {page_id}")
+        
+        # Add a header with the section title
+        notion.blocks.children.append(
+            block_id=page_id,
+            children=[{
+                "object": "block",
+                "type": "heading_1",
+                "heading_1": {
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": title
+                            }
+                        }
+                    ]
+                }
+            }]
+        )
+        
+        return page_id
+    except Exception as e:
+        logging.error(f"Error creating section page {title}: {str(e)}")
+        return None
+
+def add_page_link_to_toggle(notion, parent_id, title, page_id, is_child=False, indent_level=0):
+    """Add a link to a page in the TOC structure."""
+    try:
         # Use different icons for different indentation levels
         if is_child:
             # Level 1 indentation: right arrow
             if indent_level == 1:
-                prefix = "    ↳ "
+                prefix = "    → "
             # Level 2 indentation: small circle
             elif indent_level == 2:
-                prefix = "      ○ "
+                prefix = "        ○ "
             # Level 3+ indentation: small dot
             else:
-                prefix = "        • "
+                prefix = "            • "
         else:
             prefix = "📄 "
-        
-        if not page_id and article_id:
-            # Create a new page for this article
-            page_id = create_article_page(notion, title, article_id)
-            time.sleep(0.5)  # Delay to prevent rate limiting
-        
-        if page_id:
-            # Add a link to the page
-            response = notion.blocks.children.append(
-                block_id=parent_id,
-                children=[{
-                    "object": "block",
-                    "type": "paragraph",
-                    "paragraph": {
-                        "rich_text": [
-                            {
-                                "type": "text",
-                                "text": {
-                                    "content": prefix,
-                                },
-                            },
-                            {
-                                "type": "text",
-                                "text": {
-                                    "content": title,
-                                    "link": {"url": f"https://www.notion.so/{page_id.replace('-', '')}"}
-                                },
-                                "annotations": {
-                                    "bold": True,
-                                    "color": "blue"
-                                }
-                            }
-                        ]
-                    }
-                }]
-            )
-            logging.info(f"Added page link: {title}")
             
-            # Process article content if requested
-            if process_content and article_id:
-                process_article_content(notion, page_id, article_id)
-                
-            return page_id  # Return the page ID for possible further operations
-        else:
-            # Create a placeholder text entry without a link
-            logging.info(f"Creating placeholder for: {title} (no article ID available)")
-            response = notion.blocks.children.append(
-                block_id=parent_id,
-                children=[{
-                    "object": "block",
-                    "type": "paragraph",
-                    "paragraph": {
-                        "rich_text": [
-                            {
-                                "type": "text",
-                                "text": {
-                                    "content": f"{prefix}{title} (Not imported yet)"
-                                }
+        # Add a link to the page
+        response = notion.blocks.children.append(
+            block_id=parent_id,
+            children=[{
+                "object": "block",
+                "type": "paragraph",
+                "paragraph": {
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": prefix,
+                            },
+                        },
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": title,
+                                "link": {"url": f"https://www.notion.so/{page_id.replace('-', '')}"}
+                            },
+                            "annotations": {
+                                "bold": True,
+                                "color": "blue"
                             }
-                        ]
-                    }
-                }]
-            )
-            return False
+                        }
+                    ]
+                }
+            }]
+        )
+        logging.info(f"Added page link: {title}")
+        return True
     except Exception as e:
         logging.error(f"Error creating page link for {title}: {str(e)}")
         return False
 
-def build_section(notion, parent_id, section, level=1, parent_section="", delay_seconds=0.5, is_child=False, indent_level=0, process_content=True):
+def build_section(notion, parent_id, section, parent_page_id=None, level=1, parent_section="", delay_seconds=0.5, indent_level=0, process_content=True):
     """
-    Recursively build a section of the TOC with proper nesting.
+    Recursively build a section of the TOC with a hierarchical page structure.
     
-    Uses toggle blocks for:
-    - Top-level sections (level 1)
-    - Sections that have many subsections (> 15)
-    - Just-in-Time Learning Modules subsections
-    
-    Otherwise, creates direct links for articles with proper indentation for children.
+    Top-level sections are created as toggles.
+    Subsections are created as indented links with visual indicators (arrows, circles, dots).
+    Pages are only created for actual articles with content.
     """
     title = section.get("title", "Untitled Section")
     link = section.get("link", "")
@@ -568,65 +676,108 @@ def build_section(notion, parent_id, section, level=1, parent_section="", delay_
         # Extract article ID from link
         article_id = link.split("/")[-1].replace(".md", "")
     
-    # Determine if this section should be a toggle
-    should_be_toggle = False
+    # Create the actual page in the page hierarchy ONLY if it has article content
+    page_id = None
     
-    # Rule 1: Top-level sections are always toggles
-    if level == 1:
-        should_be_toggle = True
+    # If this section has article content, create a content page
+    if article_id and process_content:
+        # Check if the page already exists
+        existing_page_id = find_page_by_title(notion, title)
+        
+        if existing_page_id:
+            page_id = existing_page_id
+            logging.info(f"Found existing page: {title}")
+        else:
+            # Create a new article page directly under the main page
+            # We don't want to create a hierarchy of empty pages, so place all articles directly under the main page
+            page_id = create_article_page(notion, title, article_id, "1c372d5af2de80e08b11cd7748a1467d")
+            time.sleep(1)  # Delay to prevent rate limiting
     
-    # Rule 2: "Just-in-Time Learning Modules" subsections are toggles
-    elif parent_section == "Just-in-Time Learning Modules":
-        should_be_toggle = True
+    # Determine how to present this section in the TOC
+    # Only top-level sections (level 1) and Just-in-Time Learning Modules are toggles
+    should_be_toggle = (level == 1 or parent_section == "Just-in-Time Learning Modules")
     
-    # Rule 3: Sections with many subsections (>15) are toggles
-    elif len(subsections) > 15:
-        should_be_toggle = True
-    
-    # Create toggle or direct link based on rules
     if should_be_toggle:
-        # Create toggle for this section
+        # Create a toggle for this section
         container_id = create_toggle(notion, parent_id, title, level)
         
         if not container_id:
-            return
+            return None
             
-        # Add a slight delay to prevent rate limiting
         time.sleep(delay_seconds)
         
-        # If this section has a link, create a page link inside the toggle
-        if link and article_id:
-            page_id = create_page_link(notion, container_id, title, article_id, process_content=process_content)
+        # Add a link to the page in the TOC if a page was created
+        if page_id:
+            add_page_link_to_toggle(notion, container_id, title, page_id)
             time.sleep(delay_seconds)
         
-        # Process subsections - they're all children of the toggle
-        # Reset the indent level inside a toggle
+        # Process subsections under this toggle
         for subsection in subsections:
-            build_section(notion, container_id, subsection, level + 1, title, delay_seconds, is_child=False, indent_level=0, process_content=process_content)
+            build_section(
+                notion, 
+                container_id,  # Add under this toggle
+                subsection, 
+                None,         # Don't create a page hierarchy, all articles are top-level
+                level + 1, 
+                title,
+                delay_seconds,
+                indent_level=0,  # Reset indent level inside toggle
+                process_content=process_content
+            )
     else:
-        # For non-toggle sections, just create a direct link
-        if link and article_id:
-            page_id = create_page_link(notion, parent_id, title, article_id, is_child=is_child, indent_level=indent_level, process_content=process_content)
+        # Create a visually indented link for this section
+        if page_id:
+            add_page_link_to_toggle(notion, parent_id, title, page_id, is_child=True, indent_level=indent_level)
             time.sleep(delay_seconds)
-            
-            # If this non-toggle has subsections, process them under the parent
-            # but mark them as children for visual indentation
-            # and increment the indent level for proper hierarchy
-            if subsections:
-                for subsection in subsections:
-                    build_section(
-                        notion, 
-                        parent_id, 
-                        subsection, 
-                        level + 1, 
-                        title, 
-                        delay_seconds, 
-                        is_child=True, 
-                        indent_level=indent_level + 1,
-                        process_content=process_content
-                    )
+        else:
+            # For sections without a page, just add them as text with indentation
+            prefix = ""
+            if indent_level == 1:
+                prefix = "    → "
+            elif indent_level == 2:
+                prefix = "        ○ "
+            else:
+                prefix = "            • "
+                
+            response = notion.blocks.children.append(
+                block_id=parent_id,
+                children=[{
+                    "object": "block",
+                    "type": "paragraph",
+                    "paragraph": {
+                        "rich_text": [
+                            {
+                                "type": "text",
+                                "text": {
+                                    "content": f"{prefix}{title}"
+                                },
+                                "annotations": {
+                                    "bold": True
+                                }
+                            }
+                        ]
+                    }
+                }]
+            )
+            time.sleep(delay_seconds)
+        
+        # Process subsections with increased indentation
+        for subsection in subsections:
+            build_section(
+                notion, 
+                parent_id,  # Add under the same parent (no toggle)
+                subsection, 
+                None,      # Don't create a page hierarchy, all articles are top-level
+                level + 1, 
+                title,
+                delay_seconds,
+                indent_level=indent_level + 1,  # Increase indentation
+                process_content=process_content
+            )
+    
+    return page_id
 
-def build_translate_section(use_remote=True, process_content=True, section_limit=None):
+def build_translate_section(use_remote=True, process_content=True, section_limit=None, start_section=0):
     """
     Build the Translate section structure according to the TOC.
     
@@ -634,6 +785,7 @@ def build_translate_section(use_remote=True, process_content=True, section_limit
         use_remote: Whether to fetch TOC data from remote or local file
         process_content: Whether to process article content (images and links)
         section_limit: Optional limit for number of top-level sections to process
+        start_section: Index of the section to start processing from (default: 0)
     """
     # Load the TOC data
     toc_data = load_toc_data(use_remote=use_remote)
@@ -645,26 +797,41 @@ def build_translate_section(use_remote=True, process_content=True, section_limit
     # Use the specified page ID directly
     parent_page_id = "1c372d5af2de80e08b11cd7748a1467d"
     
-    # Create a toggle for "Translate" on the parent page
-    translate_toggle_id = create_toggle(notion, parent_page_id, "Translate", level=1)
+    # Create a toggle for "Translate" on the parent page using H1 style
+    translate_toggle_id = create_toggle(notion, parent_page_id, "Translate", level=1, is_heading=True)
     
     if not translate_toggle_id:
         logging.error("Failed to create Translate toggle")
         return False
     
-    logging.info(f"Created Translate toggle with ID: {translate_toggle_id}")
+    logging.info(f"Created H1 Translate toggle with ID: {translate_toggle_id}")
     
     # Get sections to process
     sections = toc_data.get("sections", [])
     
+    # Apply start_section and limit if specified
+    if start_section > 0 and start_section < len(sections):
+        logging.info(f"Starting from section {start_section} ({sections[start_section]['title']})")
+        sections = sections[start_section:]
+    
     # Apply limit if specified
     if section_limit and isinstance(section_limit, int) and section_limit > 0:
         sections = sections[:section_limit]
-        logging.info(f"Limited to first {section_limit} sections")
+        logging.info(f"Limited to {section_limit} sections")
     
-    # Process all top-level sections
+    # Process all selected sections
     for section in sections:
-        build_section(notion, translate_toggle_id, section, is_child=False, indent_level=0, process_content=process_content)
+        build_section(
+            notion, 
+            translate_toggle_id,  # Add to the Translate toggle in the TOC
+            section, 
+            None,                # Don't use page hierarchy, all articles are top-level
+            level=1,
+            parent_section="",
+            delay_seconds=0.5,
+            indent_level=0,
+            process_content=process_content
+        )
         # Add a short delay between sections
         time.sleep(0.5)
     
