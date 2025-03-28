@@ -1,21 +1,53 @@
 # TAtoNotion
 
-A Python script to import Translation Academy articles from the [unfoldingWord/en_ta](https://git.door43.org/unfoldingWord/en_ta) Gitea repository to Notion pages.
+A tool to import Translation Academy articles from a Gitea repository into Notion pages.
+
+## Overview
+
+TAtoNotion is a Python utility that imports articles from the unfoldingWord Translation Academy repository hosted on Gitea into a Notion database. The tool preserves formatting including blockquotes, nested blockquotes, footnotes, lists, and text styles (bold, italic).
+
+## Features
+
+- Import articles from the Translation Academy repository to Notion
+- Preserve markdown formatting (headings, lists, blockquotes, code blocks)
+- Support for nested blockquotes with proper indentation
+- Handle special formatting (bold, italic, links)
+- Convert footnotes to superscript Unicode characters
+- Present article subtitles in callout boxes
+- Skip existing articles to avoid duplicates
+- Configurable import delays to avoid rate limiting
 
 ## Setup
 
-1. Clone this repository
-2. Create a virtual environment and activate it:
+### Prerequisites
+
+- Python 3.6+
+- Gitea API key with access to the Translation Academy repository
+- Notion API key with integration access to your workspace
+
+### Installation
+
+1. Clone the repository:
+```
+git clone https://github.com/yourusername/TAtoNotion.git
+cd TAtoNotion
+```
+
+2. Create a virtual environment:
 ```
 python -m venv venv
-.\venv\Scripts\Activate.ps1  # On Windows
-source venv/bin/activate     # On macOS/Linux
 ```
-3. Install dependencies:
+
+3. Activate the virtual environment:
+   - Windows: `venv\Scripts\activate`
+   - Mac/Linux: `source venv/bin/activate`
+
+4. Install dependencies:
 ```
 pip install -r requirements.txt
 ```
-4. Create a `.env` file with your API keys:
+
+5. Create a `.env` file with your API keys:
 ```
 GITEA_API_KEY=your_gitea_api_key
 NOTION_API_KEY=your_notion_api_key
@@ -23,73 +55,59 @@ NOTION_API_KEY=your_notion_api_key
 
 ## Usage
 
-### 1. Add articles to import
-
-Edit the `articles_to_import.txt` file to include the folder names of the articles you want to import, one per line. For example:
+1. Create a list of articles to import in `articles_to_import.txt`, with one article folder name per line:
 ```
 figs-ellipsis
-figs-metaphor
+figs-idiom
 translate-names
 ```
 
-### 2. Run the script
-
+2. Run the script:
 ```
 python ta_to_notion.py
 ```
 
-This will:
-1. Read the list of articles from `articles_to_import.txt`
-2. For each article, retrieve the title, subtitle, and content from the Gitea repository
-3. Create a Notion page with those components under the specified parent page
+### Command Line Options
 
-### Command-line Options
-
-The script supports several command-line options:
-
-- `--input` or `-i`: Specify a custom input file (default: articles_to_import.txt)
-  ```
-  python ta_to_notion.py --input custom_list.txt
-  ```
-
+- `--input` or `-i`: Specify an alternative input file (default: `articles_to_import.txt`)
 - `--skip-existing` or `-s`: Skip articles that already exist in Notion
-  ```
-  python ta_to_notion.py --skip-existing
-  ```
+- `--delay` or `-d`: Set delay between imports in seconds (default: 1.0)
 
-- `--delay` or `-d`: Set the delay between imports in seconds (default: 1.0)
-  ```
-  python ta_to_notion.py --delay 0.5
-  ```
-
-You can combine options:
+Example:
 ```
 python ta_to_notion.py --input custom_list.txt --skip-existing --delay 2.0
 ```
 
-## Testing
+## Implementation Details
 
-The project includes two test scripts to verify API connectivity:
+The script handles several special formatting cases:
 
-- `test_gitea_api.py` - Test connectivity to the Gitea API
-- `test_notion_api.py` - Test connectivity to the Notion API and page creation
+1. **Nested Blockquotes**: Double blockquotes (> >) are indented under their parent blocks
+2. **Footnotes**: Rendered as Unicode superscript numbers
+3. **Subtitles**: Displayed in callout boxes with a question mark icon
+4. **Empty Blockquote Lines**: Preserved as empty blockquotes with a space character
 
-Run these before using the main script to ensure everything is properly configured:
+## Future Directions
 
-```
-python test_gitea_api.py
-python test_notion_api.py
-```
+The project will be moving in a major new direction focusing on:
 
-## Structure
+1. Enhanced content transformation capabilities
+2. Integration with additional knowledge base platforms
+3. Improved formatting preservation and conversion
+4. Batch processing and scheduling capabilities
 
-Each Translation Academy article consists of three files:
-- `title.md` - Contains the title of the article
-- `sub-title.md` - Contains the subtitle/question the article addresses
-- `01.md` - Contains the main content of the article
+## Troubleshooting
 
-The script fetches these three components and creates a Notion page with the title as the page title, the subtitle as a heading, and the content properly formatted.
+If you encounter issues:
 
-## Logging
+1. Check the log file `ta_to_notion.log` for detailed error messages
+2. Verify your API keys are correct and have proper permissions
+3. Ensure the article folders exist in the Translation Academy repository
 
-The script logs information to both the console and a file named `ta_to_notion.log` in the project directory. This log file contains detailed information about the import process, including any errors encountered. 
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 

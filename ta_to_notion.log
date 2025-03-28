@@ -462,3 +462,114 @@ body.children[33].synced_block should be defined, instead was `undefined`.
 2025-03-28 10:24:59,861 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8138-8133-d321fdc4c2d4/children "HTTP/1.1 200 OK"
 2025-03-28 10:24:59,863 - INFO - Created Notion page with ID: 1c472d5a-f2de-813a-9b8f-feb276ac4e30
 2025-03-28 10:24:59,863 - INFO - Import completed. Success: 2, Failed: 0
+2025-03-28 10:46:40,504 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 10:46:40,928 - INFO - Found 2 articles to import
+2025-03-28 10:46:40,929 - INFO - Processing article 1/2: figs-ellipsis
+2025-03-28 10:46:45,864 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:46:45,866 - INFO - Successfully created page: Ellipsis
+2025-03-28 10:46:46,673 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-8102-bf1e-eee44172e2e7/children "HTTP/1.1 200 OK"
+2025-03-28 10:46:47,286 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81dd-b5b5-e64bd0ac7c19/children "HTTP/1.1 200 OK"
+2025-03-28 10:46:47,774 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8123-b780-f885517d4829/children "HTTP/1.1 200 OK"
+2025-03-28 10:46:48,204 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-814b-addc-f103f2429394/children "HTTP/1.1 200 OK"
+2025-03-28 10:46:49,968 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-814b-a3d9-eb82055abd80/children "HTTP/1.1 200 OK"
+2025-03-28 10:46:50,288 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81b0-a3ea-ff1539ce8180/children "HTTP/1.1 200 OK"
+2025-03-28 10:46:50,995 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81c9-b909-f4aa29b7bdd5/children "HTTP/1.1 200 OK"
+2025-03-28 10:46:52,839 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-814a-abc8-e65e75f830ce/children "HTTP/1.1 200 OK"
+2025-03-28 10:46:53,332 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8199-8dc2-d5dce6072115/children "HTTP/1.1 200 OK"
+2025-03-28 10:46:53,334 - INFO - Created Notion page with ID: 1c472d5a-f2de-8102-bf1e-eee44172e2e7
+2025-03-28 10:46:54,334 - INFO - Processing article 2/2: figs-idiom
+2025-03-28 10:46:56,385 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:46:56,386 - INFO - Successfully created page: Idiom
+2025-03-28 10:46:56,879 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-8111-add8-d032cb12205b/children "HTTP/1.1 200 OK"
+2025-03-28 10:46:58,936 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81e9-8cec-c79deab82044/children "HTTP/1.1 200 OK"
+2025-03-28 10:46:59,368 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81cd-a8c0-f31f8a9b768d/children "HTTP/1.1 200 OK"
+2025-03-28 10:47:00,688 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81d5-aa97-ffe4848545ec/children "HTTP/1.1 200 OK"
+2025-03-28 10:47:05,155 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8180-a33a-ebe1f05b5e09/children "HTTP/1.1 200 OK"
+2025-03-28 10:47:05,491 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81cf-8bd5-cc097c6406ea/children "HTTP/1.1 200 OK"
+2025-03-28 10:47:05,493 - INFO - Created Notion page with ID: 1c472d5a-f2de-8111-add8-d032cb12205b
+2025-03-28 10:47:05,493 - INFO - Import completed. Success: 2, Failed: 0
+2025-03-28 10:49:46,824 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 10:49:47,404 - INFO - Found 2 articles to import
+2025-03-28 10:49:47,404 - INFO - Processing article 1/2: figs-ellipsis
+2025-03-28 10:49:49,750 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:49:49,752 - INFO - Successfully created page: Ellipsis
+2025-03-28 10:49:50,014 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-8190-a054-de150e63da51/children "HTTP/1.1 200 OK"
+2025-03-28 10:49:50,540 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8121-ac2f-decf71313b86/children "HTTP/1.1 200 OK"
+2025-03-28 10:49:51,363 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8142-bbd2-cf186f825d09/children "HTTP/1.1 200 OK"
+2025-03-28 10:49:51,940 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-810f-8d3d-c2256ab25d3b/children "HTTP/1.1 200 OK"
+2025-03-28 10:49:52,724 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-810f-a1ef-c9ebcedbb041/children "HTTP/1.1 200 OK"
+2025-03-28 10:49:53,316 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8174-9cb1-cc5b6db600e2/children "HTTP/1.1 200 OK"
+2025-03-28 10:49:53,875 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8105-8faa-f3f32bbd3fa0/children "HTTP/1.1 200 OK"
+2025-03-28 10:49:54,579 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-815e-8277-deb061b19485/children "HTTP/1.1 200 OK"
+2025-03-28 10:49:55,340 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8102-bf06-f056e277e167/children "HTTP/1.1 200 OK"
+2025-03-28 10:49:55,341 - INFO - Created Notion page with ID: 1c472d5a-f2de-8190-a054-de150e63da51
+2025-03-28 10:49:56,341 - INFO - Processing article 2/2: figs-idiom
+2025-03-28 10:49:58,337 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:49:58,338 - INFO - Successfully created page: Idiom
+2025-03-28 10:49:58,837 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-81c2-b4f2-e6376b938e22/children "HTTP/1.1 200 OK"
+2025-03-28 10:49:59,209 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8190-b9f6-d800d92c582d/children "HTTP/1.1 200 OK"
+2025-03-28 10:50:05,142 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81c7-9c43-f06d6d284de2/children "HTTP/1.1 200 OK"
+2025-03-28 10:50:05,593 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81ae-b9b1-d1f22d6f1f1c/children "HTTP/1.1 200 OK"
+2025-03-28 10:50:10,175 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8182-9ce5-ec72c7962714/children "HTTP/1.1 200 OK"
+2025-03-28 10:50:11,193 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8186-98b1-dffe0e49c751/children "HTTP/1.1 200 OK"
+2025-03-28 10:50:11,194 - INFO - Created Notion page with ID: 1c472d5a-f2de-81c2-b4f2-e6376b938e22
+2025-03-28 10:50:11,195 - INFO - Import completed. Success: 2, Failed: 0
+2025-03-28 11:19:56,438 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 11:19:58,029 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-03-28 11:19:58,432 - ERROR - Error creating top-level page Translate: body failed validation. Fix one:
+body.children[0].embed should be defined, instead was `undefined`.
+body.children[0].bookmark should be defined, instead was `undefined`.
+body.children[0].image should be defined, instead was `undefined`.
+body.children[0].video should be defined, instead was `undefined`.
+body.children[0].pdf should be defined, instead was `undefined`.
+body.children[0].file should be defined, instead was `undefined`.
+body.children[0].audio should be defined, instead was `undefined`.
+body.children[0].code should be defined, instead was `undefined`.
+body.children[0].equation should be defined, instead was `undefined`.
+body.children[0].divider should be defined, instead was `undefined`.
+body.children[0].breadcrumb should be defined, instead was `undefined`.
+body.children[0].table_of_contents should be defined, instead was `undefined`.
+body.children[0].link_to_page should be defined, instead was `undefined`.
+body.children[0].table_row should be defined, instead was `undefined`.
+body.children[0].ai_block should be defined, instead was `undefined`.
+body.children[0].table should be defined, instead was `undefined`.
+body.children[0].column_list should be defined, instead was `undefined`.
+body.children[0].column should be defined, instead was `undefined`.
+body.children[0].heading_1 should be defined, instead was `undefined`.
+body.children[0].heading_2 should be defined, instead was `undefined`.
+body.children[0].heading_3 should be defined, instead was `undefined`.
+body.children[0].paragraph should be defined, instead was `undefined`.
+body.children[0].bulleted_list_item should be defined, instead was `undefined`.
+body.children[0].numbered_list_item should be defined, instead was `undefined`.
+body.children[0].quote should be defined, instead was `undefined`.
+body.children[0].to_do should be defined, instead was `undefined`.
+body.children[0].toggle should be defined, instead was `undefined`.
+body.children[0].template should be defined, instead was `undefined`.
+body.children[0].callout should be defined, instead was `undefined`.
+body.children[0].synced_block should be defined, instead was `undefined`.
+2025-03-28 11:20:01,595 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-03-28 11:20:01,596 - ERROR - Error creating article page Sentence Structure: body failed validation. Fix one:
+body.parent.page_id should be a string, instead was `null`.
+body.parent.database_id should be defined, instead was `undefined`.
+2025-03-28 11:20:01,597 - ERROR - Failed to create page for dependency: figs-sentences
+2025-03-28 11:20:04,427 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-03-28 11:20:04,427 - ERROR - Error creating article page Verbs: body failed validation. Fix one:
+body.parent.page_id should be a string, instead was `null`.
+body.parent.database_id should be defined, instead was `undefined`.
+2025-03-28 11:20:04,428 - ERROR - Failed to create page for dependency: figs-verbs
+2025-03-28 11:20:07,308 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-03-28 11:20:07,308 - ERROR - Error creating article page Abstract Nouns: body failed validation. Fix one:
+body.parent.page_id should be a string, instead was `null`.
+body.parent.database_id should be defined, instead was `undefined`.
+2025-03-28 11:20:07,309 - ERROR - Failed to create page for recommendation: figs-abstractnouns
+2025-03-28 11:20:10,064 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-03-28 11:20:10,065 - ERROR - Error creating article page Word Order: body failed validation. Fix one:
+body.parent.page_id should be a string, instead was `null`.
+body.parent.database_id should be defined, instead was `undefined`.
+2025-03-28 11:20:10,066 - ERROR - Failed to create page for recommendation: figs-order
+2025-03-28 11:20:11,678 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-03-28 11:20:11,679 - ERROR - Error creating article page Active or Passive: body failed validation. Fix one:
+body.parent.page_id should be a string, instead was `null`.
+body.parent.database_id should be defined, instead was `undefined`.
+2025-03-28 11:20:11,679 - ERROR - Failed to create page for article: figs-activepassive
+2025-03-28 11:20:11,679 - INFO - Completed test import of figs-activepassive and related articles

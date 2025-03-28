@@ -224,10 +224,38 @@ def create_notion_page(parent_id, title, subtitle, content, skip_existing=False)
                         {
                             "type": "text",
                             "text": {
-                                "content": subtitle
+                                "content": title
                             }
                         }
                     ]
+                }
+            },
+            # Add subtitle as a callout box
+            {
+                "object": "block",
+                "type": "callout",
+                "callout": {
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "This article answers the question: "
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": subtitle
+                            },
+                            "annotations": {
+                                "italic": True
+                            }
+                        }
+                    ],
+                    "icon": {
+                        "type": "emoji",
+                        "emoji": "❓"
+                    }
                 }
             },
             *blocks
@@ -248,8 +276,8 @@ def create_notion_page(parent_id, title, subtitle, content, skip_existing=False)
                 # First, get all block IDs from the page
                 try:
                     page_blocks = notion.blocks.children.list(block_id=page_id)
-                    # Skip the title block which is at index 0
-                    block_ids = [block['id'] for block in page_blocks['results'][1:]]
+                    # Skip the title block and subtitle callout which are at index 0 and 1
+                    block_ids = [block['id'] for block in page_blocks['results'][2:]]
                     logger.debug(f"Retrieved {len(block_ids)} block IDs from the page")
                     
                     # Now add child blocks to their parents
