@@ -1,0 +1,464 @@
+2025-03-27 14:20:50,865 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-27 14:20:51,247 - INFO - Found 4 articles to import
+2025-03-27 14:20:51,247 - INFO - Processing article 1/4: figs-ellipsis
+2025-03-27 14:20:53,814 - INFO - HTTP Request: POST https://api.notion.com/v1/search "HTTP/1.1 200 OK"
+2025-03-27 14:20:53,816 - INFO - Article 'Ellipsis' already exists with ID: 1c372d5a-f2de-81d2-bda1-ea33ee6a474e
+2025-03-27 14:20:53,816 - INFO - Created Notion page with ID: 1c372d5a-f2de-81d2-bda1-ea33ee6a474e
+2025-03-27 14:20:54,817 - INFO - Processing article 2/4: figs-metaphor
+2025-03-27 14:21:04,054 - INFO - HTTP Request: POST https://api.notion.com/v1/search "HTTP/1.1 200 OK"
+2025-03-27 14:21:04,054 - INFO - Article 'Metaphor' already exists with ID: 1c372d5a-f2de-81e0-9340-c8a21ccacbf8
+2025-03-27 14:21:04,055 - INFO - Created Notion page with ID: 1c372d5a-f2de-81e0-9340-c8a21ccacbf8
+2025-03-27 14:21:05,055 - INFO - Processing article 3/4: translate-names
+2025-03-27 14:21:07,163 - INFO - HTTP Request: POST https://api.notion.com/v1/search "HTTP/1.1 200 OK"
+2025-03-27 14:21:07,164 - INFO - Article 'How to Translate Names' already exists with ID: 1c372d5a-f2de-817f-9c47-dc4456d72c80
+2025-03-27 14:21:07,164 - INFO - Created Notion page with ID: 1c372d5a-f2de-817f-9c47-dc4456d72c80
+2025-03-27 14:21:08,165 - INFO - Processing article 4/4: bita-manmade
+2025-03-27 14:21:10,140 - INFO - HTTP Request: POST https://api.notion.com/v1/search "HTTP/1.1 200 OK"
+2025-03-27 14:21:10,738 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-27 14:21:10,739 - INFO - Successfully created page: Biblical Imagery — Man-made Objects
+2025-03-27 14:21:10,740 - INFO - Created Notion page with ID: 1c372d5a-f2de-8137-a4dc-f154b3ff0e80
+2025-03-27 14:21:10,740 - INFO - Import completed. Success: 4, Failed: 0
+2025-03-27 14:49:22,793 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-27 14:49:23,191 - INFO - Found 1 articles to import
+2025-03-27 14:49:23,191 - INFO - Processing article 1/1: figs-idiom
+2025-03-27 14:49:25,425 - INFO - HTTP Request: POST https://api.notion.com/v1/search "HTTP/1.1 200 OK"
+2025-03-27 14:49:26,248 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-27 14:49:26,249 - INFO - Successfully created page: Idiom
+2025-03-27 14:49:26,249 - INFO - Created Notion page with ID: 1c372d5a-f2de-8144-9aa0-d1e29aa3db3a
+2025-03-27 14:49:26,250 - INFO - Import completed. Success: 1, Failed: 0
+2025-03-27 14:54:44,605 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-27 14:54:45,203 - INFO - Found 3 articles to import
+2025-03-27 14:54:45,203 - INFO - Processing article 1/3: figs-idiom
+2025-03-27 14:54:47,263 - INFO - HTTP Request: POST https://api.notion.com/v1/search "HTTP/1.1 200 OK"
+2025-03-27 14:54:47,264 - INFO - Article 'Idiom' already exists with ID: 1c372d5a-f2de-8144-9aa0-d1e29aa3db3a
+2025-03-27 14:54:47,264 - INFO - Created Notion page with ID: 1c372d5a-f2de-8144-9aa0-d1e29aa3db3a
+2025-03-27 14:54:48,265 - INFO - Processing article 2/3: figs-ellipsis
+2025-03-27 14:54:49,855 - INFO - HTTP Request: POST https://api.notion.com/v1/search "HTTP/1.1 200 OK"
+2025-03-27 14:54:51,668 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-27 14:54:51,669 - INFO - Successfully created page: Ellipsis
+2025-03-27 14:54:51,669 - INFO - Created Notion page with ID: 1c372d5a-f2de-8136-a154-daaeca66d945
+2025-03-27 14:54:52,670 - INFO - Processing article 3/3: bita-manmade
+2025-03-27 14:54:54,388 - INFO - HTTP Request: POST https://api.notion.com/v1/search "HTTP/1.1 200 OK"
+2025-03-27 14:55:03,627 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-27 14:55:03,627 - INFO - Successfully created page: Biblical Imagery — Man-made Objects
+2025-03-27 14:55:03,628 - INFO - Created Notion page with ID: 1c372d5a-f2de-81c9-88d0-ef7188ef93b9
+2025-03-27 14:55:03,628 - INFO - Import completed. Success: 3, Failed: 0
+2025-03-28 08:47:34,906 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 08:47:35,458 - INFO - Found 3 articles to import
+2025-03-28 08:47:35,458 - INFO - Processing article 1/3: figs-idiom
+2025-03-28 08:47:38,475 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 08:47:38,477 - INFO - Successfully created page: Idiom
+2025-03-28 08:47:38,477 - INFO - Created Notion page with ID: 1c472d5a-f2de-8163-98da-dc736f74b335
+2025-03-28 08:47:39,478 - INFO - Processing article 2/3: figs-ellipsis
+2025-03-28 08:47:42,556 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 08:47:42,558 - INFO - Successfully created page: Ellipsis
+2025-03-28 08:47:42,559 - INFO - Created Notion page with ID: 1c472d5a-f2de-81f9-9b6a-f24310eb572b
+2025-03-28 08:47:43,560 - INFO - Processing article 3/3: bita-manmade
+2025-03-28 08:47:47,379 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 08:47:47,380 - INFO - Successfully created page: Biblical Imagery — Man-made Objects
+2025-03-28 08:47:47,381 - INFO - Created Notion page with ID: 1c472d5a-f2de-8121-bc6c-ea140598a67b
+2025-03-28 08:47:47,381 - INFO - Import completed. Success: 3, Failed: 0
+2025-03-28 08:49:53,930 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 08:49:54,367 - INFO - Found 1 articles to import
+2025-03-28 08:49:54,367 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 08:49:57,097 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 08:49:57,099 - INFO - Successfully created page: Ellipsis
+2025-03-28 08:49:57,099 - INFO - Created Notion page with ID: 1c472d5a-f2de-816d-bbed-e632e014c0d0
+2025-03-28 08:49:57,099 - INFO - Import completed. Success: 1, Failed: 0
+2025-03-28 08:51:24,642 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 08:51:25,001 - INFO - Found 1 articles to import
+2025-03-28 08:51:25,001 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 08:51:26,808 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-03-28 08:51:26,809 - ERROR - Error creating Notion page: body failed validation: body.children[2].paragraph.rich_text[1].annotations.superscript should be not present, instead was `true`.
+2025-03-28 08:51:26,810 - ERROR - Failed to create Notion page for figs-ellipsis
+2025-03-28 08:51:26,810 - INFO - Import completed. Success: 0, Failed: 1
+2025-03-28 08:55:03,680 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 08:55:05,176 - INFO - Found 1 articles to import
+2025-03-28 08:55:05,177 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 08:55:07,189 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-03-28 08:55:07,192 - ERROR - Error creating Notion page: body failed validation: body.children[3].quote.indent should be not present, instead was `1`.
+2025-03-28 08:55:07,193 - ERROR - Failed to create Notion page for figs-ellipsis
+2025-03-28 08:55:07,193 - INFO - Import completed. Success: 0, Failed: 1
+2025-03-28 08:56:38,791 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 08:56:39,294 - INFO - Found 1 articles to import
+2025-03-28 08:56:39,295 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 08:56:40,972 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-03-28 08:56:40,975 - ERROR - Error creating Notion page: body failed validation. Fix one:
+body.children[3].embed should be defined, instead was `undefined`.
+body.children[3].bookmark should be defined, instead was `undefined`.
+body.children[3].image should be defined, instead was `undefined`.
+body.children[3].video should be defined, instead was `undefined`.
+body.children[3].pdf should be defined, instead was `undefined`.
+body.children[3].file should be defined, instead was `undefined`.
+body.children[3].audio should be defined, instead was `undefined`.
+body.children[3].code should be defined, instead was `undefined`.
+body.children[3].equation should be defined, instead was `undefined`.
+body.children[3].divider should be defined, instead was `undefined`.
+body.children[3].breadcrumb should be defined, instead was `undefined`.
+body.children[3].table_of_contents should be defined, instead was `undefined`.
+body.children[3].link_to_page should be defined, instead was `undefined`.
+body.children[3].table_row should be defined, instead was `undefined`.
+body.children[3].ai_block should be defined, instead was `undefined`.
+body.children[3].table should be defined, instead was `undefined`.
+body.children[3].column_list should be defined, instead was `undefined`.
+body.children[3].column should be defined, instead was `undefined`.
+body.children[3].heading_1 should be defined, instead was `undefined`.
+body.children[3].heading_2 should be defined, instead was `undefined`.
+body.children[3].heading_3 should be defined, instead was `undefined`.
+body.children[3].paragraph should be defined, instead was `undefined`.
+body.children[3].bulleted_list_item should be defined, instead was `undefined`.
+body.children[3].numbered_list_item should be defined, instead was `undefined`.
+body.children[3].indented_children should be not present, instead was `[]`.
+body.children[3].to_do should be defined, instead was `undefined`.
+body.children[3].toggle should be defined, instead was `undefined`.
+body.children[3].template should be defined, instead was `undefined`.
+body.children[3].callout should be defined, instead was `undefined`.
+body.children[3].synced_block should be defined, instead was `undefined`.
+2025-03-28 08:56:40,976 - ERROR - Failed to create Notion page for figs-ellipsis
+2025-03-28 08:56:40,976 - INFO - Import completed. Success: 0, Failed: 1
+2025-03-28 08:58:30,785 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 08:58:31,189 - INFO - Found 2 articles to import
+2025-03-28 08:58:31,190 - INFO - Processing article 1/2: figs-ellipsis
+2025-03-28 08:58:33,158 - INFO - HTTP Request: POST https://api.notion.com/v1/search "HTTP/1.1 200 OK"
+2025-03-28 08:58:35,946 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 08:58:35,947 - INFO - Successfully created page: Ellipsis
+2025-03-28 08:58:35,948 - INFO - Created Notion page with ID: 1c472d5a-f2de-81e8-8035-dd906c139d6a
+2025-03-28 08:58:36,948 - INFO - Processing article 2/2: figs-idiom
+2025-03-28 08:58:38,996 - INFO - HTTP Request: POST https://api.notion.com/v1/search "HTTP/1.1 200 OK"
+2025-03-28 08:58:39,747 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 08:58:39,748 - INFO - Successfully created page: Idiom
+2025-03-28 08:58:39,748 - INFO - Created Notion page with ID: 1c472d5a-f2de-818e-8176-f3e9125a5bf8
+2025-03-28 08:58:39,748 - INFO - Import completed. Success: 2, Failed: 0
+2025-03-28 09:32:45,717 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 09:32:46,170 - INFO - Found 2 articles to import
+2025-03-28 09:32:46,171 - INFO - Processing article 1/2: figs-ellipsis
+2025-03-28 09:32:52,111 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 09:32:52,114 - INFO - Successfully created page: Ellipsis
+2025-03-28 09:32:52,114 - INFO - Created Notion page with ID: 1c472d5a-f2de-81d3-82d6-cfb0bb1811e6
+2025-03-28 09:32:53,115 - INFO - Processing article 2/2: figs-idiom
+2025-03-28 09:32:55,611 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 09:32:55,614 - INFO - Successfully created page: Idiom
+2025-03-28 09:32:55,614 - INFO - Created Notion page with ID: 1c472d5a-f2de-8100-b71d-e3f34097513a
+2025-03-28 09:32:55,615 - INFO - Import completed. Success: 2, Failed: 0
+2025-03-28 09:38:02,981 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 09:38:03,418 - INFO - Found 3 articles to import
+2025-03-28 09:38:03,419 - INFO - Processing article 1/3: ÿþf i g s - e l l i p s i s 
+2025-03-28 09:38:03,806 - ERROR - Error fetching translate/ÿþf i g s - e l l i p s i s /title.md: HTTP 400
+2025-03-28 09:38:04,142 - ERROR - Error fetching translate/ÿþf i g s - e l l i p s i s /sub-title.md: HTTP 400
+2025-03-28 09:38:04,487 - ERROR - Error fetching translate/ÿþf i g s - e l l i p s i s /01.md: HTTP 400
+2025-03-28 09:38:04,487 - ERROR - Failed to fetch all components for ÿþf i g s - e l l i p s i s 
+2025-03-28 09:38:04,487 - ERROR - Failed to create Notion page for ÿþf i g s - e l l i p s i s 
+2025-03-28 09:38:05,488 - INFO - Processing article 2/3:  
+2025-03-28 09:38:05,824 - ERROR - Error fetching translate/ /title.md: HTTP 400
+2025-03-28 09:38:06,154 - ERROR - Error fetching translate/ /sub-title.md: HTTP 400
+2025-03-28 09:38:06,487 - ERROR - Error fetching translate/ /01.md: HTTP 400
+2025-03-28 09:38:06,487 - ERROR - Failed to fetch all components for  
+2025-03-28 09:38:06,488 - ERROR - Failed to create Notion page for  
+2025-03-28 09:38:07,488 - INFO - Processing article 3/3:  
+2025-03-28 09:38:07,816 - ERROR - Error fetching translate/ /title.md: HTTP 400
+2025-03-28 09:38:08,152 - ERROR - Error fetching translate/ /sub-title.md: HTTP 400
+2025-03-28 09:38:08,491 - ERROR - Error fetching translate/ /01.md: HTTP 400
+2025-03-28 09:38:08,491 - ERROR - Failed to fetch all components for  
+2025-03-28 09:38:08,491 - ERROR - Failed to create Notion page for  
+2025-03-28 09:38:08,491 - INFO - Import completed. Success: 0, Failed: 3
+2025-03-28 09:39:03,581 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 09:39:04,010 - INFO - Found 1 articles to import
+2025-03-28 09:39:04,011 - INFO - Processing article 1/1: ÿþf i g s - e l l i p s i s 
+2025-03-28 09:39:04,345 - ERROR - Error fetching translate/ÿþf i g s - e l l i p s i s /title.md: HTTP 400
+2025-03-28 09:39:04,668 - ERROR - Error fetching translate/ÿþf i g s - e l l i p s i s /sub-title.md: HTTP 400
+2025-03-28 09:39:04,998 - ERROR - Error fetching translate/ÿþf i g s - e l l i p s i s /01.md: HTTP 400
+2025-03-28 09:39:04,999 - ERROR - Failed to fetch all components for ÿþf i g s - e l l i p s i s 
+2025-03-28 09:39:04,999 - ERROR - Failed to create Notion page for ÿþf i g s - e l l i p s i s 
+2025-03-28 09:39:05,000 - INFO - Import completed. Success: 0, Failed: 1
+2025-03-28 09:40:20,955 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 09:40:21,465 - INFO - Found 1 articles to import
+2025-03-28 09:40:21,466 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 09:40:23,267 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-03-28 09:40:23,271 - ERROR - Error creating Notion page: body failed validation. Fix one:
+body.children[32].embed should be defined, instead was `undefined`.
+body.children[32].bookmark should be defined, instead was `undefined`.
+body.children[32].image should be defined, instead was `undefined`.
+body.children[32].video should be defined, instead was `undefined`.
+body.children[32].pdf should be defined, instead was `undefined`.
+body.children[32].file should be defined, instead was `undefined`.
+body.children[32].audio should be defined, instead was `undefined`.
+body.children[32].code should be defined, instead was `undefined`.
+body.children[32].equation should be defined, instead was `undefined`.
+body.children[32].divider should be defined, instead was `undefined`.
+body.children[32].breadcrumb should be defined, instead was `undefined`.
+body.children[32].table_of_contents should be defined, instead was `undefined`.
+body.children[32].link_to_page should be defined, instead was `undefined`.
+body.children[32].table_row should be defined, instead was `undefined`.
+body.children[32].ai_block should be defined, instead was `undefined`.
+body.children[32].table should be defined, instead was `undefined`.
+body.children[32].column_list should be defined, instead was `undefined`.
+body.children[32].column should be defined, instead was `undefined`.
+body.children[32].heading_1 should be defined, instead was `undefined`.
+body.children[32].heading_2 should be defined, instead was `undefined`.
+body.children[32].heading_3 should be defined, instead was `undefined`.
+body.children[32].paragraph should be defined, instead was `undefined`.
+body.children[32].bulleted_list_item should be defined, instead was `undefined`.
+body.children[32].numbered_list_item should be defined, instead was `undefined`.
+body.children[32].children should be not present, instead was `[{"object":"block","type":"quote","quote":{"rich_text":...`.
+body.children[32].to_do should be defined, instead was `undefined`.
+body.children[32].toggle should be defined, instead was `undefined`.
+body.children[32].template should be defined, instead was `undefined`.
+body.children[32].callout should be defined, instead was `undefined`.
+body.children[32].synced_block should be defined, instead was `undefined`.
+2025-03-28 09:40:23,272 - ERROR - Failed to create Notion page for figs-ellipsis
+2025-03-28 09:40:23,272 - INFO - Import completed. Success: 0, Failed: 1
+2025-03-28 09:43:20,311 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 09:43:20,699 - INFO - Found 1 articles to import
+2025-03-28 09:43:20,699 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 09:43:24,106 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 09:43:24,107 - INFO - Successfully created page: Ellipsis
+2025-03-28 09:43:24,686 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-81a6-9443-cbbdc1413950/children "HTTP/1.1 200 OK"
+2025-03-28 09:43:25,082 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81db-8c09-d5ac7eaac5ae/children "HTTP/1.1 200 OK"
+2025-03-28 09:43:27,261 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-816e-a7f4-f7d36bb4f31b/children "HTTP/1.1 200 OK"
+2025-03-28 09:43:28,107 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8149-8d87-f6b58c7492c7/children "HTTP/1.1 200 OK"
+2025-03-28 09:43:28,108 - INFO - Created Notion page with ID: 1c472d5a-f2de-81a6-9443-cbbdc1413950
+2025-03-28 09:43:28,108 - INFO - Import completed. Success: 1, Failed: 0
+2025-03-28 09:48:41,637 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 09:48:42,087 - INFO - Found 1 articles to import
+2025-03-28 09:48:42,088 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 09:48:44,902 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 09:48:44,903 - INFO - Successfully created page: Ellipsis
+2025-03-28 09:48:45,341 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-81de-a113-dc790e389c4c/children "HTTP/1.1 200 OK"
+2025-03-28 09:48:45,784 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-810a-bbee-e9614e6a3a7d/children "HTTP/1.1 200 OK"
+2025-03-28 09:48:46,219 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-810a-bbee-e9614e6a3a7d/children "HTTP/1.1 200 OK"
+2025-03-28 09:48:46,220 - INFO - Created Notion page with ID: 1c472d5a-f2de-81de-a113-dc790e389c4c
+2025-03-28 09:48:46,220 - INFO - Import completed. Success: 1, Failed: 0
+2025-03-28 09:52:47,563 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 09:52:48,007 - INFO - Found 1 articles to import
+2025-03-28 09:52:48,007 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 09:52:49,893 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-03-28 09:52:49,895 - ERROR - Error creating Notion page: body failed validation. Fix one:
+body.children[33].embed should be defined, instead was `undefined`.
+body.children[33].bookmark should be defined, instead was `undefined`.
+body.children[33].image should be defined, instead was `undefined`.
+body.children[33].video should be defined, instead was `undefined`.
+body.children[33].pdf should be defined, instead was `undefined`.
+body.children[33].file should be defined, instead was `undefined`.
+body.children[33].audio should be defined, instead was `undefined`.
+body.children[33].code should be defined, instead was `undefined`.
+body.children[33].equation should be defined, instead was `undefined`.
+body.children[33].divider should be defined, instead was `undefined`.
+body.children[33].breadcrumb should be defined, instead was `undefined`.
+body.children[33].table_of_contents should be defined, instead was `undefined`.
+body.children[33].link_to_page should be defined, instead was `undefined`.
+body.children[33].table_row should be defined, instead was `undefined`.
+body.children[33].ai_block should be defined, instead was `undefined`.
+body.children[33].table should be defined, instead was `undefined`.
+body.children[33].column_list should be defined, instead was `undefined`.
+body.children[33].column should be defined, instead was `undefined`.
+body.children[33].heading_1 should be defined, instead was `undefined`.
+body.children[33].heading_2 should be defined, instead was `undefined`.
+body.children[33].heading_3 should be defined, instead was `undefined`.
+body.children[33].paragraph should be defined, instead was `undefined`.
+body.children[33].bulleted_list_item should be defined, instead was `undefined`.
+body.children[33].numbered_list_item should be defined, instead was `undefined`.
+body.children[33].children should be not present, instead was `[{"object":"block","type":"quote","quote":{"rich_text":...`.
+body.children[33].to_do should be defined, instead was `undefined`.
+body.children[33].toggle should be defined, instead was `undefined`.
+body.children[33].template should be defined, instead was `undefined`.
+body.children[33].callout should be defined, instead was `undefined`.
+body.children[33].synced_block should be defined, instead was `undefined`.
+2025-03-28 09:52:49,896 - ERROR - Failed to create Notion page for figs-ellipsis
+2025-03-28 09:52:49,896 - INFO - Import completed. Success: 0, Failed: 1
+2025-03-28 09:53:19,081 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 09:53:19,477 - INFO - Found 1 articles to import
+2025-03-28 09:53:19,477 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 09:53:21,693 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-03-28 09:53:21,693 - ERROR - Error creating Notion page: body failed validation: body.children[25].column_list.children should be defined, instead was `undefined`.
+2025-03-28 09:53:21,694 - ERROR - Failed to create Notion page for figs-ellipsis
+2025-03-28 09:53:21,694 - INFO - Import completed. Success: 0, Failed: 1
+2025-03-28 09:53:53,202 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 09:53:53,611 - INFO - Found 1 articles to import
+2025-03-28 09:53:53,612 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 09:53:55,937 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 09:53:55,940 - INFO - Successfully created page: Ellipsis
+2025-03-28 09:53:56,190 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-8167-bcdc-e628525d0cd9/children "HTTP/1.1 200 OK"
+2025-03-28 09:53:56,718 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8125-aab0-cca1301545b1/children "HTTP/1.1 200 OK"
+2025-03-28 09:53:57,280 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8135-a124-c9feaad426d7/children "HTTP/1.1 200 OK"
+2025-03-28 09:54:03,401 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81f1-8a21-de12d34816bb/children "HTTP/1.1 200 OK"
+2025-03-28 09:54:03,403 - INFO - Created Notion page with ID: 1c472d5a-f2de-8167-bcdc-e628525d0cd9
+2025-03-28 09:54:03,404 - INFO - Import completed. Success: 1, Failed: 0
+2025-03-28 09:54:57,399 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 09:54:57,853 - INFO - Found 1 articles to import
+2025-03-28 09:54:57,853 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 09:55:01,151 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 09:55:01,154 - INFO - Successfully created page: Ellipsis
+2025-03-28 09:55:01,962 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-816c-a79d-e4fc4a37abf7/children "HTTP/1.1 200 OK"
+2025-03-28 09:55:04,158 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-819a-9185-d6ff0fc3de9b/children "HTTP/1.1 200 OK"
+2025-03-28 09:55:07,842 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8178-a3d9-e269777f2836/children "HTTP/1.1 200 OK"
+2025-03-28 09:55:07,843 - INFO - Created Notion page with ID: 1c472d5a-f2de-816c-a79d-e4fc4a37abf7
+2025-03-28 09:55:07,844 - INFO - Import completed. Success: 1, Failed: 0
+2025-03-28 09:58:03,045 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 09:58:03,518 - INFO - Found 1 articles to import
+2025-03-28 09:58:03,518 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 09:58:06,665 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 09:58:06,666 - INFO - Successfully created page: Ellipsis
+2025-03-28 09:58:07,418 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-8125-8fac-d669c09d14ab/children "HTTP/1.1 200 OK"
+2025-03-28 09:58:11,191 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-813b-b996-cb4df9669f88/children "HTTP/1.1 200 OK"
+2025-03-28 09:58:12,347 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8175-a91a-f689ea5fcc5d/children "HTTP/1.1 200 OK"
+2025-03-28 09:58:12,750 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8115-83c7-f738574dbcec/children "HTTP/1.1 200 OK"
+2025-03-28 09:58:12,750 - INFO - Created Notion page with ID: 1c472d5a-f2de-8125-8fac-d669c09d14ab
+2025-03-28 09:58:12,751 - INFO - Import completed. Success: 1, Failed: 0
+2025-03-28 10:01:41,943 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 10:01:42,348 - INFO - Found 2 articles to import
+2025-03-28 10:01:42,349 - INFO - Processing article 1/2: figs-ellipsis
+2025-03-28 10:01:44,773 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:01:44,775 - INFO - Successfully created page: Ellipsis
+2025-03-28 10:01:45,050 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-81cc-8758-c6dc0b71c72f/children "HTTP/1.1 200 OK"
+2025-03-28 10:01:46,419 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81ae-8a54-ee636bdb916d/children "HTTP/1.1 200 OK"
+2025-03-28 10:01:47,925 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-811f-b61d-fcae9e1d3261/children "HTTP/1.1 200 OK"
+2025-03-28 10:01:49,681 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-816f-9852-c3b748337671/children "HTTP/1.1 200 OK"
+2025-03-28 10:01:53,700 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-813a-8b94-ffa8c6ba7a34/children "HTTP/1.1 200 OK"
+2025-03-28 10:01:54,079 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81c5-aee3-fdcf39262e71/children "HTTP/1.1 200 OK"
+2025-03-28 10:01:54,733 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81a4-b089-efbfde8f2d34/children "HTTP/1.1 200 OK"
+2025-03-28 10:01:55,148 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81a7-99ab-ff154640c5c7/children "HTTP/1.1 200 OK"
+2025-03-28 10:01:55,655 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-810f-8c60-c052c871c163/children "HTTP/1.1 200 OK"
+2025-03-28 10:01:55,656 - INFO - Created Notion page with ID: 1c472d5a-f2de-81cc-8758-c6dc0b71c72f
+2025-03-28 10:01:56,657 - INFO - Processing article 2/2: figs-idiom
+2025-03-28 10:02:01,567 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:02:01,568 - INFO - Successfully created page: Idiom
+2025-03-28 10:02:01,987 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-81d1-a8ea-ec939e6913dc/children "HTTP/1.1 200 OK"
+2025-03-28 10:02:03,666 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8177-8c95-f47ce8badcd5/children "HTTP/1.1 200 OK"
+2025-03-28 10:02:04,119 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-812b-a344-c8f430fe11f2/children "HTTP/1.1 200 OK"
+2025-03-28 10:02:11,516 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8185-a204-cd830dcba55c/children "HTTP/1.1 200 OK"
+2025-03-28 10:02:12,855 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81b2-a377-c5cc853c1623/children "HTTP/1.1 200 OK"
+2025-03-28 10:02:13,658 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8176-96e4-f55564288c6c/children "HTTP/1.1 200 OK"
+2025-03-28 10:02:13,659 - INFO - Created Notion page with ID: 1c472d5a-f2de-81d1-a8ea-ec939e6913dc
+2025-03-28 10:02:13,660 - INFO - Import completed. Success: 2, Failed: 0
+2025-03-28 10:03:40,484 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 10:03:40,986 - INFO - Found 2 articles to import
+2025-03-28 10:03:40,986 - INFO - Processing article 1/2: figs-ellipsis
+2025-03-28 10:03:43,901 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:03:43,902 - INFO - Successfully created page: Ellipsis
+2025-03-28 10:03:49,188 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-8167-b7e9-c12a033644cb/children "HTTP/1.1 200 OK"
+2025-03-28 10:03:53,107 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8134-a51b-efafe1805b8f/children "HTTP/1.1 200 OK"
+2025-03-28 10:03:54,480 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-813b-a6e3-e4c9029d8b2e/children "HTTP/1.1 200 OK"
+2025-03-28 10:03:54,823 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81ad-9702-e91618e18253/children "HTTP/1.1 200 OK"
+2025-03-28 10:04:04,410 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8102-8d7c-dd242c7722a7/children "HTTP/1.1 200 OK"
+2025-03-28 10:04:10,377 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8103-8426-e0e25645fc96/children "HTTP/1.1 200 OK"
+2025-03-28 10:04:15,589 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8131-9161-e294729f14c9/children "HTTP/1.1 200 OK"
+2025-03-28 10:04:15,998 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-811e-bf79-d4d8e53bd180/children "HTTP/1.1 200 OK"
+2025-03-28 10:04:18,518 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81ed-8adc-c5e117bf6956/children "HTTP/1.1 200 OK"
+2025-03-28 10:04:18,519 - INFO - Created Notion page with ID: 1c472d5a-f2de-8167-b7e9-c12a033644cb
+2025-03-28 10:04:19,520 - INFO - Processing article 2/2: figs-idiom
+2025-03-28 10:04:22,504 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:04:22,505 - INFO - Successfully created page: Idiom
+2025-03-28 10:04:23,113 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-81be-bb88-df02802fe32e/children "HTTP/1.1 200 OK"
+2025-03-28 10:04:25,563 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8189-85eb-f261abdc1bb3/children "HTTP/1.1 200 OK"
+2025-03-28 10:04:26,169 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81c4-ba36-ed52a9f90615/children "HTTP/1.1 200 OK"
+2025-03-28 10:04:26,762 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8106-9924-fb297dfc922d/children "HTTP/1.1 200 OK"
+2025-03-28 10:04:27,275 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81b1-b22b-f9129b05c7b5/children "HTTP/1.1 200 OK"
+2025-03-28 10:04:28,543 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81c7-8368-fdc4bfef00e7/children "HTTP/1.1 200 OK"
+2025-03-28 10:04:28,544 - INFO - Created Notion page with ID: 1c472d5a-f2de-81be-bb88-df02802fe32e
+2025-03-28 10:04:28,545 - INFO - Import completed. Success: 2, Failed: 0
+2025-03-28 10:11:16,377 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 10:11:17,027 - INFO - Found 1 articles to import
+2025-03-28 10:11:17,028 - INFO - Processing article 1/1: figs-ellipsis
+2025-03-28 10:11:21,286 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:11:21,287 - INFO - Successfully created page: Ellipsis
+2025-03-28 10:11:21,287 - INFO - Created Notion page with ID: 1c472d5a-f2de-8104-9e77-e63e9efb9752
+2025-03-28 10:11:21,288 - INFO - Import completed. Success: 1, Failed: 0
+2025-03-28 10:15:02,783 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 10:15:03,265 - INFO - Found 2 articles to import
+2025-03-28 10:15:03,266 - INFO - Processing article 1/2: figs-ellipsis
+2025-03-28 10:15:06,148 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:15:06,150 - INFO - Successfully created page: Ellipsis
+2025-03-28 10:15:06,420 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-818d-91bb-e51587077a8e/children "HTTP/1.1 200 OK"
+2025-03-28 10:15:07,744 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8104-b483-ed505fc9a938/children "HTTP/1.1 200 OK"
+2025-03-28 10:15:21,196 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8191-a958-fa39bc38664f/children "HTTP/1.1 200 OK"
+2025-03-28 10:15:21,614 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8124-b9c5-dca55e4e62cd/children "HTTP/1.1 200 OK"
+2025-03-28 10:15:21,615 - INFO - Created Notion page with ID: 1c472d5a-f2de-818d-91bb-e51587077a8e
+2025-03-28 10:15:22,616 - INFO - Processing article 2/2: figs-idiom
+2025-03-28 10:15:25,039 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:15:25,040 - INFO - Successfully created page: Idiom
+2025-03-28 10:15:25,450 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-81bb-8fee-d8d347560664/children "HTTP/1.1 200 OK"
+2025-03-28 10:15:30,539 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-810a-ac2d-e056a1749a32/children "HTTP/1.1 200 OK"
+2025-03-28 10:15:36,504 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81f8-9f49-c8db1211997a/children "HTTP/1.1 200 OK"
+2025-03-28 10:15:37,305 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8156-9566-eb9df93fb79f/children "HTTP/1.1 200 OK"
+2025-03-28 10:15:38,835 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8190-b8be-dc51e585f433/children "HTTP/1.1 200 OK"
+2025-03-28 10:15:42,888 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-810e-a3d0-fdc3a1f986ed/children "HTTP/1.1 200 OK"
+2025-03-28 10:15:42,890 - INFO - Created Notion page with ID: 1c472d5a-f2de-81bb-8fee-d8d347560664
+2025-03-28 10:15:42,890 - INFO - Import completed. Success: 2, Failed: 0
+2025-03-28 10:19:30,319 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 10:19:30,907 - INFO - Found 2 articles to import
+2025-03-28 10:19:30,907 - INFO - Processing article 1/2: figs-ellipsis
+2025-03-28 10:19:35,964 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:19:35,965 - INFO - Successfully created page: Ellipsis
+2025-03-28 10:19:41,269 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-8156-af6e-fa85747af4cc/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:41,657 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81ed-aa54-f38b29005b5c/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:42,192 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8182-985d-fd9fe4043e1d/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:42,696 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81d3-993c-c5ad42a60a6a/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:43,044 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8139-9996-e8460c7e63d9/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:46,791 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81cd-9e6c-d3f6ef946511/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:47,337 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81e5-a3be-d67e0ce8506c/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:48,062 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8105-b666-dd56d41d308e/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:48,680 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-816d-b502-eb7b7714fd18/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:48,686 - INFO - Created Notion page with ID: 1c472d5a-f2de-8156-af6e-fa85747af4cc
+2025-03-28 10:19:49,687 - INFO - Processing article 2/2: figs-idiom
+2025-03-28 10:19:53,708 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:19:53,710 - INFO - Successfully created page: Idiom
+2025-03-28 10:19:54,131 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-8153-8ac0-cff3f7d8b4af/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:54,663 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81ee-9d22-ff0d7661652b/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:55,946 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81c4-867c-ca99fd4567d5/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:57,656 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8162-848d-f26e9f22c28a/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:58,245 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-819b-8097-e014401f9e3a/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:59,816 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8167-b1dc-e5b386b4b609/children "HTTP/1.1 200 OK"
+2025-03-28 10:19:59,851 - INFO - Created Notion page with ID: 1c472d5a-f2de-8153-8ac0-cff3f7d8b4af
+2025-03-28 10:19:59,851 - INFO - Import completed. Success: 2, Failed: 0
+2025-03-28 10:23:05,791 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 10:23:06,431 - INFO - Found 2 articles to import
+2025-03-28 10:23:06,431 - INFO - Processing article 1/2: figs-ellipsis
+2025-03-28 10:23:08,455 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:23:08,456 - INFO - Successfully created page: Ellipsis
+2025-03-28 10:23:08,733 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-8175-ad02-dd12a5c5d8cc/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:09,315 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81af-b874-d1ec22c575d4/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:09,826 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81cb-873f-e3484555ae24/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:10,354 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-819c-a98c-c73b249aea80/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:10,925 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8187-86dc-f820349dd4a8/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:11,776 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-818e-84ce-d2c8013c17f5/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:13,189 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81f0-a179-f0c5ab4567e9/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:13,768 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8131-8bc7-f9a7a17f8d79/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:19,412 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81e6-860b-d7f02c3d7049/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:19,414 - INFO - Created Notion page with ID: 1c472d5a-f2de-8175-ad02-dd12a5c5d8cc
+2025-03-28 10:23:20,414 - INFO - Processing article 2/2: figs-idiom
+2025-03-28 10:23:23,218 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:23:23,219 - INFO - Successfully created page: Idiom
+2025-03-28 10:23:25,064 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-81bf-9ce1-d46efc7052ac/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:25,478 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81b3-8662-f1279c255651/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:26,498 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8191-b355-e11269c5b48b/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:26,962 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8117-834f-c7151ca93ddc/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:27,550 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8183-bbdb-c5c533c7ab26/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:27,993 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8123-9a81-c2f93dabe814/children "HTTP/1.1 200 OK"
+2025-03-28 10:23:27,993 - INFO - Created Notion page with ID: 1c472d5a-f2de-81bf-9ce1-d46efc7052ac
+2025-03-28 10:23:27,994 - INFO - Import completed. Success: 2, Failed: 0
+2025-03-28 10:24:33,542 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-03-28 10:24:34,472 - INFO - Found 2 articles to import
+2025-03-28 10:24:34,494 - INFO - Processing article 1/2: figs-ellipsis
+2025-03-28 10:24:37,038 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:24:37,039 - INFO - Successfully created page: Ellipsis
+2025-03-28 10:24:37,340 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-8162-b8f2-d78ce1c94402/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:37,941 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81e2-b87b-f9ca24794f23/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:42,749 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81d8-9dc0-c5724f72a34b/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:50,057 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81b7-a2f4-f13822776cbb/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:51,132 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-810c-89b3-e6aa90e05c51/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:51,681 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81c0-8987-f3a50feeb821/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:52,359 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-816d-8a73-e720073ad26d/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:52,743 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8108-abb9-dbb004376a48/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:53,708 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8174-9559-c2603abfb0d2/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:53,709 - INFO - Created Notion page with ID: 1c472d5a-f2de-8162-b8f2-d78ce1c94402
+2025-03-28 10:24:54,710 - INFO - Processing article 2/2: figs-idiom
+2025-03-28 10:24:56,594 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-03-28 10:24:56,595 - INFO - Successfully created page: Idiom
+2025-03-28 10:24:57,174 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1c472d5a-f2de-813a-9b8f-feb276ac4e30/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:57,579 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-81da-b956-e254d00ba6de/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:58,464 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8118-9b6f-d959453087a4/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:58,940 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8164-98cc-ecd7c0626bf2/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:59,541 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8198-b5c6-c2dcdf71209b/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:59,861 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1c472d5a-f2de-8138-8133-d321fdc4c2d4/children "HTTP/1.1 200 OK"
+2025-03-28 10:24:59,863 - INFO - Created Notion page with ID: 1c472d5a-f2de-813a-9b8f-feb276ac4e30
+2025-03-28 10:24:59,863 - INFO - Import completed. Success: 2, Failed: 0
