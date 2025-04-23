@@ -573,3 +573,103 @@ body.parent.page_id should be a string, instead was `null`.
 body.parent.database_id should be defined, instead was `undefined`.
 2025-03-28 11:20:11,679 - ERROR - Failed to create page for article: figs-activepassive
 2025-03-28 11:20:11,679 - INFO - Completed test import of figs-activepassive and related articles
+2025-04-16 13:46:13,236 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-04-16 13:46:13,772 - INFO - Found 2 articles to import
+2025-04-16 13:46:13,772 - INFO - Processing article 1/2: figs-ellipsis
+2025-04-16 13:46:23,070 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-04-16 13:46:23,072 - INFO - Successfully created page: Ellipsis
+2025-04-16 13:46:23,538 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1d772d5a-f2de-8117-9ddd-f92cef0c2fbc/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:23,947 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-8162-9078-ed7f537c7a37/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:26,791 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-81cd-8b7f-ec062612f7d8/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:27,179 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-81e8-9fde-cefe4ef85e25/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:31,145 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-81d6-add0-f5c470ecb8c6/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:31,955 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-817b-9d0c-db486c9dc21c/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:32,286 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-814b-be84-d10778b22e4b/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:33,565 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-81a2-aef3-f9b98c2ffdad/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:33,835 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-81f5-83c0-f65f0c274f05/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:33,836 - INFO - Created Notion page with ID: 1d772d5a-f2de-8117-9ddd-f92cef0c2fbc
+2025-04-16 13:46:34,837 - INFO - Processing article 2/2: figs-idiom
+2025-04-16 13:46:37,108 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-04-16 13:46:37,111 - INFO - Successfully created page: Idiom
+2025-04-16 13:46:37,356 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1d772d5a-f2de-8187-a7c3-e4d7dbe73f4b/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:37,694 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-8152-8fde-c1c471dcf72d/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:37,998 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-8102-bdb5-e9d8e75284eb/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:38,892 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-8169-b4d4-c079d1fee913/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:39,277 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-81b4-8f18-fe096d723c8d/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:39,857 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1d772d5a-f2de-81fe-9e1f-e2aa59f903c7/children "HTTP/1.1 200 OK"
+2025-04-16 13:46:39,859 - INFO - Created Notion page with ID: 1d772d5a-f2de-8187-a7c3-e4d7dbe73f4b
+2025-04-16 13:46:39,859 - INFO - Import completed. Success: 2, Failed: 0
+2025-04-21 13:41:42,127 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-04-21 13:41:42,585 - INFO - Found 1 articles to import
+2025-04-21 13:41:42,585 - INFO - Processing article 1/1: figs-parellelism
+2025-04-21 13:41:42,955 - ERROR - Error fetching translate/figs-parellelism/title.md: HTTP 404
+2025-04-21 13:41:43,332 - ERROR - Error fetching translate/figs-parellelism/sub-title.md: HTTP 404
+2025-04-21 13:41:43,723 - ERROR - Error fetching translate/figs-parellelism/01.md: HTTP 404
+2025-04-21 13:41:43,725 - ERROR - Failed to fetch all components for figs-parellelism
+2025-04-21 13:41:43,729 - ERROR - Failed to create Notion page for figs-parellelism
+2025-04-21 13:41:43,732 - INFO - Import completed. Success: 0, Failed: 1
+2025-04-21 13:42:09,118 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-04-21 13:42:09,587 - INFO - Found 1 articles to import
+2025-04-21 13:42:09,587 - INFO - Processing article 1/1: figs-parellelism
+2025-04-21 13:42:10,000 - ERROR - Error fetching translate/figs-parellelism/title.md: HTTP 404
+2025-04-21 13:42:10,359 - ERROR - Error fetching translate/figs-parellelism/sub-title.md: HTTP 404
+2025-04-21 13:42:10,760 - ERROR - Error fetching translate/figs-parellelism/01.md: HTTP 404
+2025-04-21 13:42:10,761 - ERROR - Failed to fetch all components for figs-parellelism
+2025-04-21 13:42:10,761 - ERROR - Failed to create Notion page for figs-parellelism
+2025-04-21 13:42:10,762 - INFO - Import completed. Success: 0, Failed: 1
+2025-04-21 13:42:30,453 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-04-21 13:42:30,924 - INFO - Found 1 articles to import
+2025-04-21 13:42:30,924 - INFO - Processing article 1/1: figs-parallelism
+2025-04-21 13:42:33,515 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-04-21 13:42:33,519 - INFO - Successfully created page: Parallelism
+2025-04-21 13:42:33,975 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1dc72d5a-f2de-8141-90c7-fa5fd3352ec5/children "HTTP/1.1 200 OK"
+2025-04-21 13:42:35,049 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dc72d5a-f2de-8107-b2d5-d82dffe365d7/children "HTTP/1.1 200 OK"
+2025-04-21 13:42:35,431 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dc72d5a-f2de-818f-a3be-f85bf8c1943c/children "HTTP/1.1 200 OK"
+2025-04-21 13:42:35,776 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dc72d5a-f2de-81cd-9747-e2baa5e8ac48/children "HTTP/1.1 200 OK"
+2025-04-21 13:42:36,093 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dc72d5a-f2de-81a4-9758-d4cb7d26ab3a/children "HTTP/1.1 200 OK"
+2025-04-21 13:42:37,339 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dc72d5a-f2de-81c5-bef9-d39c23779a3e/children "HTTP/1.1 200 OK"
+2025-04-21 13:42:37,970 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dc72d5a-f2de-8170-99d1-fab91b664ecd/children "HTTP/1.1 200 OK"
+2025-04-21 13:42:39,946 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dc72d5a-f2de-81d5-a95c-d20d3de2c86e/children "HTTP/1.1 200 OK"
+2025-04-21 13:42:39,948 - INFO - Created Notion page with ID: 1dc72d5a-f2de-8141-90c7-fa5fd3352ec5
+2025-04-21 13:42:39,949 - INFO - Import completed. Success: 1, Failed: 0
+2025-04-21 14:01:51,811 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-04-21 14:01:52,289 - INFO - Found 1 articles to import
+2025-04-21 14:01:52,290 - INFO - Processing article 1/1: grammar-connect-condition-hypothetical
+2025-04-21 14:01:58,023 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-04-21 14:01:58,027 - INFO - Successfully created page: Connect — Hypothetical Conditions
+2025-04-21 14:01:58,900 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1dc72d5a-f2de-8127-bf37-ca5d7f282b1d/children "HTTP/1.1 200 OK"
+2025-04-21 14:01:59,233 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dc72d5a-f2de-81d8-b0e6-f3712a52fe87/children "HTTP/1.1 200 OK"
+2025-04-21 14:01:59,604 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dc72d5a-f2de-81ea-986c-d736f018e985/children "HTTP/1.1 200 OK"
+2025-04-21 14:01:59,966 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dc72d5a-f2de-8159-b0e2-cf8c5f92e83d/children "HTTP/1.1 200 OK"
+2025-04-21 14:01:59,969 - INFO - Created Notion page with ID: 1dc72d5a-f2de-8127-bf37-ca5d7f282b1d
+2025-04-21 14:01:59,970 - INFO - Import completed. Success: 1, Failed: 0
+2025-04-21 14:22:33,817 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-04-21 14:22:34,445 - INFO - Found 1 articles to import
+2025-04-21 14:22:34,446 - INFO - Processing article 1/1: translate-textvariants
+2025-04-21 14:22:36,758 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-04-21 14:22:36,760 - INFO - Successfully created page: Textual Variants
+2025-04-21 14:22:37,204 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1dc72d5a-f2de-8158-84fc-c6423c465f18/children "HTTP/1.1 200 OK"
+2025-04-21 14:22:37,670 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dc72d5a-f2de-816d-834b-cd9f18cf404e/children "HTTP/1.1 200 OK"
+2025-04-21 14:22:38,074 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dc72d5a-f2de-8122-a99d-f0d2a6350607/children "HTTP/1.1 200 OK"
+2025-04-21 14:22:38,077 - INFO - Created Notion page with ID: 1dc72d5a-f2de-8158-84fc-c6423c465f18
+2025-04-21 14:22:38,078 - INFO - Import completed. Success: 1, Failed: 0
+2025-04-22 10:06:12,436 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-04-22 10:06:13,133 - INFO - Found 1 articles to import
+2025-04-22 10:06:13,133 - INFO - Processing article 1/1: translate-textvariants
+2025-04-22 10:06:15,460 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-04-22 10:06:15,462 - INFO - Successfully created page: Textual Variants
+2025-04-22 10:06:15,696 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1dd72d5a-f2de-817d-bd73-e5bde9dbb650/children "HTTP/1.1 200 OK"
+2025-04-22 10:06:16,120 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dd72d5a-f2de-8143-bb05-cb8cb6a2193d/children "HTTP/1.1 200 OK"
+2025-04-22 10:06:16,785 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dd72d5a-f2de-8133-aa1e-f842871b600e/children "HTTP/1.1 200 OK"
+2025-04-22 10:06:16,787 - INFO - Created Notion page with ID: 1dd72d5a-f2de-817d-bd73-e5bde9dbb650
+2025-04-22 10:06:16,787 - INFO - Import completed. Success: 1, Failed: 0
+2025-04-22 12:26:57,564 - INFO - Using Notion page ID: 1c372d5a-f2de-80e0-8b11-cd7748a1467d
+2025-04-22 12:26:58,006 - INFO - Found 1 articles to import
+2025-04-22 12:26:58,006 - INFO - Processing article 1/1: writing-symlanguage
+2025-04-22 12:27:00,078 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-04-22 12:27:00,080 - INFO - Successfully created page: Symbolic Language
+2025-04-22 12:27:00,514 - INFO - HTTP Request: GET https://api.notion.com/v1/blocks/1dd72d5a-f2de-81fe-8ff0-d761ddaeeb66/children "HTTP/1.1 200 OK"
+2025-04-22 12:27:00,880 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dd72d5a-f2de-81e8-a0ed-e1ad5e5cdf5a/children "HTTP/1.1 200 OK"
+2025-04-22 12:27:07,045 - INFO - HTTP Request: PATCH https://api.notion.com/v1/blocks/1dd72d5a-f2de-81fd-aba8-c6f6283d88f2/children "HTTP/1.1 200 OK"
+2025-04-22 12:27:07,048 - INFO - Created Notion page with ID: 1dd72d5a-f2de-81fe-8ff0-d761ddaeeb66
+2025-04-22 12:27:07,049 - INFO - Import completed. Success: 1, Failed: 0

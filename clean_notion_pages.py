@@ -89,30 +89,17 @@ def find_toggle_by_title(title):
         logging.error(f"Error finding toggle {title}: {str(e)}")
         return None
 
-def clear_translate_toggle():
-    """Find and clear the Translate toggle content."""
-    # Find the Translate toggle
-    toggle_id = find_toggle_by_title("Translate")
-    
-    if toggle_id:
-        logging.info(f"Found Translate toggle with ID: {toggle_id}")
-        # Get children of the toggle
-        children = notion.blocks.children.list(block_id=toggle_id).get("results", [])
-        
-        # Delete each child
-        for child in children:
-            child_id = child.get("id")
-            notion.blocks.delete(block_id=child_id)
-            logging.info(f"Deleted block {child_id} from Translate toggle")
-            time.sleep(0.5)  # Add a delay to prevent rate limiting
-        
-        logging.info("Cleared all content from Translate toggle")
-        return True
+def clear_translate_page():
+    """Find and clear the 'Translate' page by deleting all content blocks."""
+    translate_page_id = find_page_by_title("Translate")
+    if translate_page_id:
+        logging.info(f"Found Translate toggle with ID: {translate_page_id}")
+        return delete_page_content(translate_page_id)
     else:
-        logging.info("Translate toggle not found. No cleanup needed.")
-        return False
+        logging.info("No Translate toggle found, no cleanup needed.")
+        return True
 
 if __name__ == "__main__":
     logging.info("Starting cleanup process")
-    clear_translate_toggle()
+    clear_translate_page()
     logging.info("Cleanup process completed") 

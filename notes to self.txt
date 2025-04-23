@@ -1,0 +1,6 @@
+to run the just in time modules:
+del ./page_cache.json
+python import_all.py --manuals translate --start 8 --sections 1
+
+for just the figs of speech:
+python import_all.py --manuals translate --subsection "Figures of Speech"
