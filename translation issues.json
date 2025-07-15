@@ -1,0 +1,350 @@
+[
+    {
+      "type": "apostrophe",
+      "description": "An apostrophe is a figure of speech in which a speaker directly addresses someone who is not there, or addresses a thing that is not a person."
+    },
+    {
+      "type": "aside",
+      "description": "An aside is a figure of speech in which someone who is speaking to a person or group pauses to speak confidentially to himself or to someone else about those to whom he had been speaking. The speaker does this to indicate in a strong way his thoughts or feelings about that person or group."
+    },
+    {
+      "type": "doublet",
+      "description": "A doublet is two or more words or very short phrases that mean the same thing and that are used in the same phrase. In the Bible, doublets are often used in poetry, prophecy, and sermons to emphasize an idea."
+    },
+    {
+      "type": "euphemism",
+      "description": "A euphemism is a mild or polite way of referring to something that is unpleasant or embarrassing. Its purpose is to avoid offending the people who hear or read it."
+    },
+    {
+      "type": "hendiadys",
+      "description": "In hendiadys a single idea is expressed with two words connected with “and.” Also, the reader understands that one of the words further describes the other. That is, one word could be used to modify the other."
+    },
+    {
+      "type": "hyperbole",
+      "description": "A hyperbole is a deliberate exaggeration used to indicate the speaker’s feeling or opinion about something."
+    },
+    {
+      "type": "idiom",
+      "description": "An idiom is a group of words that has a meaning that is different from what one would understand from the meanings of the individual words."
+    },
+    {
+      "type": "irony",
+      "description": "Irony is a figure of speech in which the sense that the speaker intends to communicate is actually the opposite of the literal meaning of the words."
+    },
+    {
+      "type": "litany",
+      "description": "A litany is a figure of speech in which the various components of a thing are listed in a series of very similar statements. The speaker does this to indicate that what he is saying should be understood as comprehensive and without exceptions."
+    },
+    {
+      "type": "litotes",
+      "description": "Litotes is an emphatic statement about something made by negating an opposite expression."
+    },
+    {
+      "type": "merism",
+      "description": "Merism is a figure of speech in which a person refers to something by listing some of its parts or by speaking of two extreme parts of it."
+    },
+    {
+      "type": "metaphor",
+      "description": "A metaphor is a figure of speech in which one concept is used in place of another, unrelated concept. This invites the hearer to think of what the unrelated concepts have in common. That is, metaphor is an implied comparison between two unrelated things."
+    },
+    {
+      "type": "metonymy",
+      "description": "Metonymy is a figure of speech in which a thing or idea is called not by its own name, but by the name of something closely associated with it. A metonym is a word or phrase used as a substitute for something it is associated with."
+    },
+    {
+      "type": "parallelism",
+      "description": "In parallelism two or more phrases or clauses that are similar in structure or idea are used together. It is found throughout the whole of the Hebrew Bible, most commonly in the poetry of the books of Psalms and Proverbs."
+    },
+    {
+      "type": "personification",
+      "description": "Personification is a figure of speech in which an idea or something that is not human is referred to as if it were a person and could do the things that people do or have the qualities that people have."
+    },
+    {
+      "type": "predictive past",
+      "description": "The predictive past is a form that some languages use to refer to things that will happen in the future. This is sometimes done in prophecy to show that the event will certainly happen."
+    },
+    {
+      "type": "rhetorical question",
+      "description": "A rhetorical question is a question that is used for something other than getting information. Often it indicates the speaker’s attitude toward the topic or the listener. Often it is used for rebuking or scolding, but some languages have other purposes as well."
+    },
+    {
+      "type": "simile",
+      "description": "A simile is a comparison of two things that are not normally thought to be similar. It focuses on a particular trait that the two items have in common, and it includes words such as “like,” “as,” or “than” to make the comparison explicit."
+    },
+    {
+      "type": "synecdoche",
+      "description": "Synecdoche is a figure of speech in which 1) the name of a part of something is used to refer to the whole thing, or 2) the name of a whole thing is used to refer to just one part of it."
+    },
+    {
+      "type": "abstract nouns",
+      "description": "rc://*/ta/man/translate/figs-abstractnouns"
+    },
+    {
+      "type": "passive verbal forms (active-passive)",
+      "description": "Some languages use both active and passive sentences. In active sentences, the subject does the action. In passive sentences, the subject is the one that receives the action."
+    },
+    {
+      "type": "collective nouns",
+      "description": "A collective noun is a singular noun that refers to a group of something. Examples: a family, clan, or tribe is a group of people who are related to each other; a flock is a group of birds or sheep; a fleet is a group of ships; and an army is a group of soldiers."
+    },
+    {
+      "type": "distinguishing versus informing or reminding (restrictive vs. non-restrictive relative clauses)",
+      "description": "In some languages, phrases that modify a noun can be used with the noun for two different purposes. They can either (1) distinguish the noun from other similar items, or (2) they can give more information about the noun. That information could be new to the reader, or a reminder about something the reader might already know. Other languages use modifying phrases with a noun only for distinguishing the noun from other similar things. When people who speak these languages hear a modifying phrase along with a noun, they assume that its function is to distinguish one item from another similar item."
+    },
+    {
+      "type": "double negatives",
+      "description": "Negative words are words that have in them the meaning “not.” Examples in English are “no,” “not,” “none,” “no one,” “nothing,” “nowhere,” “never,” “nor,” “neither,” and “without.” Also, some words have prefixes or suffixes that mean “not,” such as “un,” “im,” and “less,” in the following words: “unhappy,” “impossible,” and “useless.” Some other kinds of words also have a negative meaning, such as “lack” or “reject,” or even “fight” or “evil.” A double negative occurs when a clause has two words that each have a negative meaning."
+    },
+    {
+      "type": "ellipsis",
+      "description": "An ellipsis occurs when a speaker or writer leaves out one or more words that normally should be in the sentence. The speaker or writer does this because he knows that the hearer or reader will understand the meaning of the sentence and supply the words in his mind when he hears or reads the words that are there."
+    },
+    {
+      "type": "formal or informal “you”",
+      "description": "In some cultures people use the formal “you” when speaking to someone who is older or in authority, and they use the informal “you” when speaking to someone who is their own age or younger or who has less authority. In other cultures, people use the formal “you” when speaking to strangers or people they do not know well, and the informal “you” when speaking with family members and close friends."
+    },
+    {
+      "type": "dual “you”",
+      "description": "Some languages have a singular form of “you” for when the word “you” refers to just one person, and a plural form for when the word “you” refers to more than one person. Some languages also have a dual form of “you” for when the word “you” refers to only two people. Translators who speak one of these languages will always need to know what the speaker meant so they can choose the right word for “you” in their language."
+    },
+    {
+      "type": "singular vs. plural “you”",
+      "description": "Some languages have a singular form of “you” for when the word “you” refers to just one person, and a plural form for when the word “you” refers to more than one person. Translators who speak one of these languages will always need to know what the speaker meant so they can choose the right word for “you” in their language."
+    },
+    {
+      "type": "generic nouns",
+      "description": "Generic noun phrases refer to people or things in general rather than to specific individuals or things. This happens frequently in proverbs, because proverbs tell about things that are true about people in general."
+    },
+    {
+      "type": "go and come",
+      "description": "Different languages have different ways of determining whether to use the words \"go\" or \"come\" and whether to use the words \"take\" or \"bring\" when talking about motion. For example, when saying that they are approaching a person who has called them, English speakers say \"I'm coming,\" while Spanish speakers say \"I'm going.\" Translators will need to study the context in order to understand what is meant by the words \"go\" and \"come\" (and also \"take\" and \"bring\"), and then translate those words in a way that readers will understand which direction people are moving in."
+    },
+    {
+      "type": "nominal adjectives",
+      "description": "In some languages an adjective can be used to refer to a class of things that the adjective describes. When it does, it acts like a noun."
+    },
+    {
+      "type": "order of events",
+      "description": "In the Bible, events are not always told in the order in which they occurred. Sometimes the author wanted to discuss something that happened at an earlier time than the event that he just talked about. This can be confusing to the reader."
+    },
+    {
+      "type": "possession",
+      "description": "Possession is used in Hebrew, Greek, and English for a variety of situations. Here are a few common situations that it is used for: Ownership — Someone owns something. Social Relationship — Someone has some kind of social relationship with another. Association — A particular thing is associated with a particular person, place, or thing. Contents — Something has something in it. Part and whole: One thing is part of another. In some languages there is a special form of possession, termed inalienable possession. This form of possession is used for things that cannot be removed from you, as opposed to things you could lose. the translator needs to understand the relationship between two ideas represented by the two nouns when one is in the grammatical relationship of possessing the other. Some languages do not use grammatical possession for all of the situations that your source text Bible might use it for."
+    },
+    {
+      "type": "when masculine words include women (gender notations)",
+      "description": "In the Bible, sometimes the words “men,” “brothers,” and “sons” refer only to men. At other times, those words include both men and women. In those places where the writer meant both men and women, the translator needs to translate it in a way that does not limit the meaning to men."
+    },
+    {
+      "type": "first, second, or third person",
+      "description": "Normally a speaker refers to himself as “I” and the person he is speaking to as “you.” Sometimes in the Bible a speaker refers to himself or to the person he is speaking to with terms other than “I” or “you.” Sometimes in the Bible a speaker uses the third person to refer to himself or to the people he is speaking to. Readers might think that the speaker was referring to someone else. They might not understand that he meant “I” or “you.”"
+    },
+    {
+      "type": "exclusive and inclusive “we”",
+      "description": "Some languages have more than one form of “we”: an inclusive form that means “I and you” and an exclusive form that means “I and someone else but not you.” The exclusive form excludes the person being spoken to. The inclusive form includes the person being spoken to and possibly others. This is also true for “us,” “our,” “ours,” and “ourselves.” Some languages have inclusive forms and exclusive forms for each of these. Translators whose language has separate exclusive and inclusive forms for these words will need to understand what the speaker meant so that they can decide which form to use."
+    },
+    {
+      "type": "singular pronouns that refer to groups",
+      "description": "The Bible was written in Hebrew, Aramaic and Greek. These languages have a singular form of “you” for when the word “you” refers to just one person, and a plural form for when the word “you” refers to more than one person. However, sometimes speakers in the Bible used the singular form of “you” even though they were speaking to a group of people. This is not obvious when you read the Bible in English because English does not have different forms that indicate where “you” is singular and where “you” is plural. But you may see this if you read a Bible in a language that does have distinct forms. Also, speakers and writers of the Old Testament often referred to groups of people with the singular pronoun “he,” rather than with the plural pronoun “they.” Finally, Old Testament speakers and writers sometimes referred to actions that they performed as part of a group by saying ‘I’ did it when, really, the whole group was involved."
+    },
+    {
+      "type": "reflexive pronouns",
+      "description": "All languages have ways of showing that the same person fills two different roles in a sentence. English does this by using reflexive pronouns. Languages have different ways of showing that the same person fills two different roles in a sentence. For those languages, translators will need to know how to translate the English reflexive pronouns. The reflexive pronouns in English also have other functions: To show that the same person or things fills two different roles in a sentence. To emphasize a person or thing in the sentence. To show that someone did something alone. To show that someone or something was alone."
+    },
+    {
+      "type": "pronouns - when to use them",
+      "description": "When we talk or write, we use pronouns to refer to people or things without always having to repeat the noun or name. Each language has its rules and exceptions to this usual way of referring to people and things.In some languages, the first time something is referred to in a paragraph or chapter, it is referred to with a noun rather than a pronoun. The main character is the person whom a story is about. In some languages, after a main character is introduced in a story, he is usually referred to with a pronoun. Some languages have special pronouns that refer only to the main character. In some languages, marking on the verb helps people know who the subject is. In some of these languages, listeners rely on this marking to help them understand who the subject is. Speakers will use a pronoun, noun phrase, or proper name only when they want either to emphasize or to clarify who the subject is."
+    },
+    {
+      "type": "Information Structure",
+      "description": "Different languages arrange the parts of the sentence in different ways. Although all languages have a normal order for parts of a sentence, this order can change depending on what information the speaker or writer considers to be the most important. Different languages arrange the parts of a sentence in different ways. If translators copy the order of the parts of a sentence from the source, it may not make sense in the target language. Different languages put important or new information in different places in the sentence. If translators keep the important or new information in the same place that it had in the source language, it may be confusing or give the wrong message in the target language."
+    },
+    {
+      "type": "Statements - Other Uses",
+      "description": "Normally statements are used to give information. Sometimes they are used in the Bible for other functions. Some languages would not use a statement for some of the functions that statements are used for in the Bible."
+    },
+    {
+      "type": "Imperatives - Other Uses",
+      "description": "Imperative sentences are mainly used to express a desire or requirement that someone do something. In the Bible, sometimes imperative sentences have other uses (e.g., to make things happen, function as a blessing, function as a condition). Some languages would not use an imperative sentence for some of the functions that they are used for in the Bible."
+    },
+    {
+      "type": "Exclamations",
+      "description": "Languages have different ways of showing that a sentence communicates strong emotion."
+    },
+    {
+      "type": "Connecting Words",
+      "description": "Connecting words or phrases can connect phrases or clauses within a sentence. They can connect sentences to each other. They can also connect entire chunks to one another in order to show how the chunk before relates to the chunk after the connecting word. Very often, the connecting words that connect entire chunks to one another are either conjunctions or adverbs. Sometimes people might not use a connecting word because they expect the context to help the readers understand the relationship between the thoughts. Some languages do not use connecting words as much as other languages do. the translators will need to use the method that is most natural and clear in the target language. But in general, using connecting words whenever possible helps the reader to understand the ideas in the Bible most clearly."
+    },
+    {
+      "type": "Sequential Clauses",
+      "description": "A sequential clause is a time relation that connects two events in which one happens and then the other happens. Languages indicate sequences of events in different ways; some use ordering, some use connecting words, some even use relative tense (Relative tense is a tense that refers to a time in relation to a reference point in the context.) Connecting words that may indicate sequence are words such as “then,” “later,” “after,” “afterward,” “before,” “first,” and “when.” Translators need to be certain that they communicate the order of the events in a way that is natural in their language. This may require ordering clauses differently than in the original languages."
+    },
+    {
+      "type": "Simultaneous Clauses",
+      "description": "Languages indicate in many different ways that events occur simultaneously. These ways may vary based on whether or not something is causing the events to occur simultaneously. Connecting words that may indicate simultaneous events are words such as \"while,\" \"as,\" and \"during.\" Often the Bible does not state a relationship between the events but simply says they occurred at the same time. It is important that translators know when a time relationship is implied and when it is not implied so that they can communicate it clearly. A simultaneous clause communicates that events happened at the same time but it does not indicate that one event caused the other."
+    },
+    {
+      "type": "Background Clauses",
+      "description": "A background clause is one that describes something that is ongoing. Then, in the same sentence, another clause indicates an event that begins to happen during that time. These events are also simultaneous events, but they have the further relationship of background event and main event because the event that is already happening serves as the background for the other event, the one that is in focus. The background event simply provides the time frame or other context for the main event or events. Languages indicate a shift in time in different ways. Translators need to understand how these shifts in time are indicated in the original languages in order to communicate them clearly in the target language. Background clauses often indicate a time that began long before the event that is in focus. Translators need to understand how both the source language and the target language communicate background events."
+    },
+    {
+      "type": "Goal or Purpose Relationship",
+      "description": "In Scripture, the goal or purpose may be stated either first or second. But in some languages, the goal or purpose must always occur in the same position (either first or second) in order for that logical relationship to be understood. Translators need to understand the relationship between the two parts and communicate those accurately in their language. This may require changing the order of the two events. It may also require specific words to indicate that one is the goal or purpose of the other."
+    },
+    {
+      "type": "Reason-Result Clauses",
+      "description": "A reason-and-result relationship is a logical relationship in which one event is the reason or cause for another event. The second event, then, is the result of the first event.Many languages have a preferred order for the reason and the result, and it will be confusing for the reader if they are in the opposite order.translators need to be aware of the difference between a goal relationship and a reason-and-result relationship. It is necessary for translators to understand how the two events are connected, and then communicate them clearly in their language."
+    },
+    {
+      "type": "Contrast Clauses",
+      "description": "A contrast relationship is a logical relationship in which one event or item is in contrast or opposition to another. In Scripture, many events did not happen as the people involved intended or expected them to happen. Sometimes people acted in ways that were not expected, whether good or bad. Often it was God at work, changing the events. These events were often pivotal. It is important that translators understand and communicate these contrasts."
+    },
+    {
+      "type": "Factual Conditions",
+      "description": "A Factual Condition is a condition that sounds hypothetical but is already certain or true in the speaker’s mind.Some languages do not state something as a condition if it is certain or true. Translators from these languages may misunderstand the original languages and think that the condition is uncertain. This would lead to mistakes in their translations. Even if the translators understand that the condition is certain or true, the readers may misunderstand it. In this case, it would be best to translate it as a statement of fact rather than as a conditional statement."
+    },
+    {
+      "type": "Contrary-to-Fact Conditions",
+      "description": "A Contrary-to-Fact Condition is a condition that sounds hypothetical, but the speaker is already certain that it is NOT true. Usually there are no special words that indicate a Contrary-to-Fact Condition. The writer assumes that the reader knows that it is NOT a true condition. For this reason it often requires knowledge of implied information to know that it is not true."
+    },
+    {
+      "type": "Hypothetical Conditions",
+      "description": "It is important that translators understand whether or not something is a Hypothetical Condition so that they translate it in the correct way. Sometimes conditions are stated in an order different than the order in which they would happen. If the target language would state the clauses in a different order, then translators will need to make that adjustment. (This issue is not for general hypothetical situations, but only for conditional statements with a hypothetical.)"
+    },
+    {
+      "type": "Exception Clauses",
+      "description": "Exceptional relationship connectors exclude one or more items or people from a group. Translators need to understand who (or what) is in the group and who (or what) is excluded in order to be able to accurately communicate this in their language."
+    },
+    {
+      "type": "Quotations and Quote Margins",
+      "description": "When saying that someone said something, we often tell who spoke, whom they spoke to, and what they said. The information about who spoke and whom they spoke to is called the quote margin. What the person said is the quotation. (This is also called a quote.) In some languages the quote margin may come first, last, or even in between two parts of the quotation. Translators need to put the quote margin where it is most clear and natural in their language. Translators need to decide whether they want the quote margin to have one or two verbs meaning “said.” Translators need to decide which marks to use around the quotation."
+    },
+    {
+      "type": "Direct and Indirect Quotations",
+      "description": "In some languages, reported speech can be expressed by either direct or indirect quotations. In other languages, it is more natural to use one than the other. There may be a certain meaning implied by using one rather than the other. So for each quotation, translators need to decide whether it is best to translate it as a direct quotation or as an indirect quotation."
+    },
+    {
+      "type": "Quote Markings",
+      "description": "Some languages use quotation marks to mark off direct quotes from the rest of the text."
+    },
+    {
+      "type": "Quotes Within Quotes",
+      "description": "A quotation may have a quote within it, and quotes that are inside of other quotes can also have quotes within them. When a quote has quotes within it, we say there are “levels” of quotation, and each of the quotes is a level. When there are many levels of quotes inside of quotes, it can be hard for listeners and readers to know who is saying what. Some languages use a combination of direct quotes and indirect quotes to make it easier."
+    },
+    {
+      "type": "Background Information",
+      "description": "When people tell a story, they normally tell the events in the order that they happened. This sequence of events makes up the storyline. The storyline is full of action verbs that move the story along in time. But sometimes a writer may take a break from the storyline and give some information to help his listeners understand the story better. This type of information is called background information. The background information might be about things that happened before the events he has already told about, or it might explain something in the story, or it might be about something that would happen much later in the story. Languages have different ways of marking background information and storyline information. Translators need to know the order of the events in the Bible, which information is background information, and which is storyline information. They will need to translate the story in a way that marks the background information in a way that readers will understand the order of events, which information is background information, and which is storyline information."
+    },
+    {
+      "type": "End of Story",
+      "description": "Translators need to know that certain information is ending the story, what the purpose of the information is, and how the information is related to the story. They need to know how to translate the particular kind of information at the end of a story the way their language expresses that kind of information, translate it so that people will understand how it relates to the story it is part of, and if possible, translate the end of the story in a way that people will know where that story ends and the next begins."
+    },
+    {
+      "type": "Hypothetical Situations",
+      "description": "Hypothetical situations are situations that are not real. They can be in the past, present, or future. Hypothetical situations in the past and present have not happened, are not happening now, and ones in the future are not expected to happen."
+    },
+    {
+      "type": "Introduction of a New Event",
+      "description": "When people tell a story, they tell about an event or a series of events. Often they put certain information at the beginning of the story, such as who the story is about, when it happened, and where it happened. This information that the writer gives before the events of the story begin is called the setting of the story. Some new events in a story also have a setting because they might involve new people, new times, and new places. In some languages, people also tell if they saw the event or heard about it from someone else. Translators need to know when people in their language tell about events, what information they give at the beginning and if there is a certain order that they put it in. Translators will need to follow the way their language introduces new information at the beginning of a story or a new event rather than the way the source language did that. In this way the translation will sound natural and communicate clearly in the target language."
+    },
+    {
+      "type": "Introduction of New and Old Participants",
+      "description": "In order to make translations clear and natural, it is necessary to refer to the participants in such a way that readers will know if they are new participants or participants that they have already read about. Different languages have different ways of doing this. Translators must follow the way that their target language does this, not the way that the source language does this."
+    },
+    {
+      "type": "Parables",
+      "description": "A parable is a short story that is told to teach something that is true. The events in a parable are usually things that could or often do happen, but they are not specific events that actually did happen. They are told only to teach the lesson that the listener is meant to learn."
+    },
+    {
+      "type": "Poetry",
+      "description": "Different languages use poetry for different things. If a poetic form would not communicate the same meaning in the target language, translators may need to write it without the poetry. Different languages use different poetic devices. A poetic device that conveys elegance or emotion in a biblical language may be confusing or misunderstood in another language. In some languages, using poetry for a particular part of the Bible would make it much more powerful."
+    },
+    {
+      "type": "Blessings",
+      "description": "Each language has its own ways of saying blessings. There are many blessings in the Bible. They need to be translated in the way that people say blessings in the target language, so that readers recognize them as blessings and understand what one person wants God to do for another."
+    },
+    {
+      "type": "Oaths",
+      "description": "As a guarantee that the person taking the oath will do what he promises, the person calls on God to witness the oath and to punish him severely if he does not do the thing promised, or if what he testifies to is not true. Sometimes the person will not name God directly but will instead name something holy that is associated with God, such as the temple. In some situations, a person might name a different authority, such as a king. A complete oath has four parts, but some of them are often left unspoken and only implied: Calling on God to witness the oath and judge the person making it. Making the promise (may be implied as the opposite of the violation). Telling what would be a violation of the oath (may be implied as the opposite of the promise). Saying what punishment God would do if the person violates the oath (often implied). People in some cultures may not be familiar with the practice of taking oaths, and so they may not understand what the people in the Bible are doing. In many languages, people would not take an oath the way that people did in the Bible, and so they might not recognize that the person is taking an oath. In the Old Testament, people often did not speak one or more parts of the oath, leaving those parts implied. The part that was most often left unspoken was the part that would tell what they are asking God to do if they break the oath. People believed that spoken words have power, and that speaking the part about punishment might cause the punishment to happen, so they often left that part to be understood silently. Because of these things, people might think that the person in the Bible is not making a real oath or they may not understand what the verse is talking about at all."
+    },
+    {
+      "type": "Proverbs",
+      "description": "Proverbs are short sayings that give wise advice or teach something that is generally true about life. People enjoy proverbs because they give a lot of wisdom in few words. Proverbs in the Bible often use metaphor and parallelism. Proverbs should not be understood as absolute and unchangeable laws. Rather, proverbs offer general advice to a person about how to live his life. Each language has its own ways of saying proverbs. There are many proverbs in the Bible. They need to be translated in the way that people say proverbs in the target language so that readers recognize them as proverbs and understand what they teach."
+    },
+    {
+      "type": "Symbolic Language",
+      "description": "Symbolic language in speech and writing is the use of symbols to represent other things, other events, etc. In the Bible it occurs most in prophecy and poetry, especially in visions and dreams about things that will happen in the future. Though people may not immediately know the meaning of a symbol, it is important to keep the symbol in the translation."
+    },
+    {
+      "type": "Textual Variants",
+      "description": "This is to alert translators when there are multiple readings of a text and the ULT has chosen one of them so they can make a decision about which one to use in their translation (based on local church preferences)."
+    },
+    {
+      "type": "Verse Bridges",
+      "description": "These notes are to alert translators when verses might need to be combined into a verse bridge in their languageto structure the information in a clearer or chronological way."
+    },
+    {
+      "type": "Translate Unknowns",
+      "description": "These notes are for things that are in the Bible or the Bible's culture and times that are not well known to people in the culture, time or place where the translation is being made."
+    },
+    {
+      "type": "Copy or Borrow Words",
+      "description": "Sometimes the Bible includes things that are not part of the target culture and for which the target language may not have a word. The Bible also includes people and places for which the target language may not have names. When that happens translators can \"borrow\" the word from the Bible in a familiar language and use it in their translation in the target language. This means that translators basically copy it from the other language"
+    },
+    {
+      "type": "How to Translate Names",
+      "description": "These notes give advice on how to translate names (sometimes based on meaning) or to tell translators if a name is for a person (man or woman) or a place, etc."
+    },
+    {
+      "type": "Kinship",
+      "description": "Kinship terms refer to those words used to describe people related to one another in familial relationships. These terms vary widely in their specificity from language to language."
+    },
+    {
+      "type": "Assumed Knowledge and Implicit Information",
+      "description": "Assumed knowledge and implied information are part of the communication of Scripture. As such they can be made explicit for readers who do not share the same knowledge that the original readers shared. However, when this information is more than a phrase, it may skew the message and is better included as a footnote."
+    },
+    {
+      "type": "Redundant Information",
+      "description": "Some languages have ways of saying things that are natural for them but sound strange when translated into other languages. One of the reasons for this is that some languages say things explicitly that some other languages would leave as implicit information. If translators render all of the explicit information from the source language into explicit information in the target language, it could sound foreign, unnatural, or perhaps even unintelligent if the target language would not make that information explicit. Instead, it is best to leave that kind of information implicit in the target language."
+    },
+    {
+      "type": "When to Keep Information Implicit",
+      "description": "Sometimes it is better not to state assumed knowledge or implicit information explicitly because it may skew the author's intended meaning."
+    },
+    {
+      "type": "Biblical Distance",
+      "description": "Used to clarify how to translate a distance."
+    },
+    {
+      "type": "Biblical Volume",
+      "description": "Used to clarify how to translate volume."
+    },
+    {
+      "type": "Biblical Weight",
+      "description": "Used to clarify how to translate weight."
+    },
+    {
+      "type": "Biblical Money",
+      "description": "Used to clarify how to translate money."
+    },
+    {
+      "type": "Hebrew Months",
+      "description": "Used to clarify how to translate Hebrew months."
+    },
+    {
+      "type": "Numbers",
+      "description": "Used to clarify how to translate large numbers."
+    },
+    {
+      "type": "Ordinal Numbers",
+      "description": "Used to clarify how to translate ordinal numbers."
+    },
+    {
+      "type": "Fractions",
+      "description": "Used to clarify how to translate fractions."
+    },
+    {
+      "type": "Symbolic Action",
+      "description": "A symbolic action is something that someone does in order to express a certain idea. Symbolic actions do not mean the same things in all cultures. In the Bible, sometimes people perform symbolic actions and sometimes they only refer to the symbolic action. An action may have a meaning in one culture and a different meaning or no meaning at all in another culture."
+    }
+  ]

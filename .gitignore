@@ -1,1 +1,5 @@
 .env
+*.log
+*.md
+*.txt
+en_ta/
