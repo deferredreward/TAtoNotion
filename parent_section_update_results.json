@@ -1,0 +1,152 @@
+{
+  "total_articles": 10,
+  "articles_updated": 1,
+  "articles_no_parent": 9,
+  "failed_updates": 0,
+  "hierarchies": {
+    "intro": {},
+    "process": {},
+    "translate": {
+      "translate/guidelines-clear": "translate/guidelines-intro",
+      "translate/guidelines-natural": "translate/guidelines-intro",
+      "translate/guidelines-accurate": "translate/guidelines-intro",
+      "translate/guidelines-church-approved": "translate/guidelines-intro",
+      "translate/guidelines-faithful": "translate/guidelines-intro",
+      "translate/guidelines-sonofgod": "translate/guidelines-faithful",
+      "translate/guidelines-sonofgodprinciples": "translate/guidelines-faithful",
+      "translate/guidelines-authoritative": "translate/guidelines-intro",
+      "translate/guidelines-historical": "translate/guidelines-intro",
+      "translate/guidelines-equal": "translate/guidelines-intro",
+      "translate/guidelines-collaborative": "translate/guidelines-intro",
+      "translate/guidelines-ongoing": "translate/guidelines-intro",
+      "translate/translate-discover": "translate/translate-process",
+      "translate/translate-retell": "translate/translate-process",
+      "translate/translate-form": "translate/translate-fandm",
+      "translate/translate-levels": "translate/translate-fandm",
+      "translate/translate-wforw": "translate/translate-literal",
+      "translate/translate-problem": "translate/translate-literal",
+      "translate/translate-tform": "translate/translate-dynamic",
+      "translate/qualifications": "translate/choose-team",
+      "translate/translate-source-licensing": "translate/translate-source-text",
+      "translate/translate-source-version": "translate/translate-source-text",
+      "translate/translate-alphabet": "translate/writing-decisions",
+      "translate/translate-alphabet2": "translate/writing-decisions",
+      "translate/resources-connect": "translate/resources-types",
+      "translate/resources-def": "translate/resources-types",
+      "translate/resources-eplain": "translate/resources-types",
+      "translate/resources-synequi": "translate/resources-types",
+      "translate/resources-alter": "translate/resources-types",
+      "translate/resources-clarify": "translate/resources-types",
+      "translate/resources-alterm": "translate/resources-types",
+      "translate/resources-porp": "translate/resources-types",
+      "translate/resources-fofs": "translate/resources-types",
+      "translate/resources-iordquote": "translate/resources-types",
+      "translate/resources-long": "translate/resources-types",
+      "translate/resources-words": "translate/resources-types",
+      "translate/resources-questions": "translate/resources-types",
+      "translate/figs-declarative": "translate/figs-sentencetypes",
+      "translate/figs-imperative": "translate/figs-sentencetypes",
+      "translate/figs-exclamations": "translate/figs-sentencetypes",
+      "translate/grammar-connect-time-sequential": "translate/grammar-connect-words-phrases",
+      "translate/grammar-connect-time-simultaneous": "translate/grammar-connect-words-phrases",
+      "translate/grammar-connect-time-background": "translate/grammar-connect-words-phrases",
+      "translate/grammar-connect-logic-goal": "translate/grammar-connect-words-phrases",
+      "translate/grammar-connect-logic-result": "translate/grammar-connect-words-phrases",
+      "translate/grammar-connect-logic-contrast": "translate/grammar-connect-words-phrases",
+      "translate/grammar-connect-condition-fact": "translate/grammar-connect-words-phrases",
+      "translate/grammar-connect-condition-contrary": "translate/grammar-connect-words-phrases",
+      "translate/grammar-connect-condition-hypothetical": "translate/grammar-connect-words-phrases",
+      "translate/grammar-connect-exceptions": "translate/grammar-connect-words-phrases"
+    },
+    "checking": {
+      "checking/vol2-backtranslation-purpose": "checking/vol2-backtranslation",
+      "checking/vol2-backtranslation-who": "checking/vol2-backtranslation",
+      "checking/vol2-backtranslation-kinds": "checking/vol2-backtranslation",
+      "checking/vol2-backtranslation-written": "checking/vol2-backtranslation",
+      "checking/vol2-backtranslation-guidelines": "checking/vol2-backtranslation"
+    }
+  },
+  "parent_child_relationships": {
+    "translate/guidelines-intro": [
+      "translate/guidelines-clear",
+      "translate/guidelines-natural",
+      "translate/guidelines-accurate",
+      "translate/guidelines-church-approved",
+      "translate/guidelines-faithful",
+      "translate/guidelines-authoritative",
+      "translate/guidelines-historical",
+      "translate/guidelines-equal",
+      "translate/guidelines-collaborative",
+      "translate/guidelines-ongoing"
+    ],
+    "translate/guidelines-faithful": [
+      "translate/guidelines-sonofgod",
+      "translate/guidelines-sonofgodprinciples"
+    ],
+    "translate/translate-process": [
+      "translate/translate-discover",
+      "translate/translate-retell"
+    ],
+    "translate/translate-fandm": [
+      "translate/translate-form",
+      "translate/translate-levels"
+    ],
+    "translate/translate-literal": [
+      "translate/translate-wforw",
+      "translate/translate-problem"
+    ],
+    "translate/translate-dynamic": [
+      "translate/translate-tform"
+    ],
+    "translate/choose-team": [
+      "translate/qualifications"
+    ],
+    "translate/translate-source-text": [
+      "translate/translate-source-licensing",
+      "translate/translate-source-version"
+    ],
+    "translate/writing-decisions": [
+      "translate/translate-alphabet",
+      "translate/translate-alphabet2"
+    ],
+    "translate/resources-types": [
+      "translate/resources-connect",
+      "translate/resources-def",
+      "translate/resources-eplain",
+      "translate/resources-synequi",
+      "translate/resources-alter",
+      "translate/resources-clarify",
+      "translate/resources-alterm",
+      "translate/resources-porp",
+      "translate/resources-fofs",
+      "translate/resources-iordquote",
+      "translate/resources-long",
+      "translate/resources-words",
+      "translate/resources-questions"
+    ],
+    "translate/figs-sentencetypes": [
+      "translate/figs-declarative",
+      "translate/figs-imperative",
+      "translate/figs-exclamations"
+    ],
+    "translate/grammar-connect-words-phrases": [
+      "translate/grammar-connect-time-sequential",
+      "translate/grammar-connect-time-simultaneous",
+      "translate/grammar-connect-time-background",
+      "translate/grammar-connect-logic-goal",
+      "translate/grammar-connect-logic-result",
+      "translate/grammar-connect-logic-contrast",
+      "translate/grammar-connect-condition-fact",
+      "translate/grammar-connect-condition-contrary",
+      "translate/grammar-connect-condition-hypothetical",
+      "translate/grammar-connect-exceptions"
+    ],
+    "checking/vol2-backtranslation": [
+      "checking/vol2-backtranslation-purpose",
+      "checking/vol2-backtranslation-who",
+      "checking/vol2-backtranslation-kinds",
+      "checking/vol2-backtranslation-written",
+      "checking/vol2-backtranslation-guidelines"
+    ]
+  }
+}
