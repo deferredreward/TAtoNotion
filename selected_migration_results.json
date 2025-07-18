@@ -1,0 +1,18 @@
+{
+  "requested_articles": 10,
+  "successful_migrations": 10,
+  "failed_migrations": 0,
+  "not_found": [],
+  "migrated_pages": {
+    "translate/figs-metaphor": "23172d5a-f2de-810f-9ab5-e993f9879741",
+    "translate/figs-simile": "23172d5a-f2de-8143-aab7-ce7b3e7862e3",
+    "translate/figs-metonymy": "23172d5a-f2de-8175-b8f6-c5a5d4deae7b",
+    "translate/figs-hyperbole": "23172d5a-f2de-81e9-ac76-d3b0a0981461",
+    "translate/figs-irony": "23172d5a-f2de-81c4-aeab-eec871b36944",
+    "translate/figs-rquestion": "23172d5a-f2de-814d-a700-d74ef99ea5ae",
+    "translate/translate-fandm": "23172d5a-f2de-81c4-a0e4-d09df737438e",
+    "translate/translate-form": "23172d5a-f2de-810c-860e-e61a4f17b442",
+    "translate/translate-literal": "23172d5a-f2de-818d-9985-d51835181033",
+    "translate/translate-dynamic": "23172d5a-f2de-81e7-9b67-da566a64a0af"
+  }
+}

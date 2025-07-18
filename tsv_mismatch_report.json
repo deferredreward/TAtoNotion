@@ -1,0 +1,742 @@
+{
+  "summary": {
+    "total_tsv_rows": 111,
+    "matched": 70,
+    "unmatched": 41
+  },
+  "unmatched_details": [
+    {
+      "row": 3,
+      "tsv_topic": "Aside https://git.door43.org/tim/en_ta/src/branch/master/translate/figs-aside/01.md",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 10,
+      "tsv_topic": "Litany https://git.door43.org/unfoldingWord/en_ta/src/branch/master/translate/figs-litany/01.md",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 16,
+      "tsv_topic": "Parallelism with the Same Meaning",
+      "tsv_first_col": "T.7.1.15",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 22,
+      "tsv_topic": "GRAMMAR",
+      "tsv_first_col": "T.7.2",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 25,
+      "tsv_topic": "Collective Nouns - review article https://git.door43.org/unfoldingWord/en_ta/src/branch/master/translate/grammar-collectivenouns/01.md",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 30,
+      "tsv_topic": "Forms of 'You' - Dual/Plural",
+      "tsv_first_col": "T.7.2.8",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 31,
+      "tsv_topic": "Forms of 'You' - Singular",
+      "tsv_first_col": "T.7.2.9",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 42,
+      "tsv_topic": "First, Second, or Third Person.",
+      "tsv_first_col": "T.7.3.1",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 43,
+      "tsv_topic": "Exclusive and Inclusive \"We\"",
+      "tsv_first_col": "T.7.3.2",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 44,
+      "tsv_topic": "Forms of \"You\" - Formal or Informal",
+      "tsv_first_col": "T.7.3.3",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 45,
+      "tsv_topic": "Forms of \"you\" - Singular to a Crowd",
+      "tsv_first_col": "T.7.3.4",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 47,
+      "tsv_topic": "Pronouns - When to Use Them",
+      "tsv_first_col": "T.7.3.6",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 48,
+      "tsv_topic": "SENTENCES",
+      "tsv_first_col": "T.7.4",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 52,
+      "tsv_topic": "Statements - Other Uses",
+      "tsv_first_col": "T.7.4.3.1",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 53,
+      "tsv_topic": "Imperatives - Other Uses",
+      "tsv_first_col": "T.7.4.3.2",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 55,
+      "tsv_topic": "CONNECTING WORDS",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 56,
+      "tsv_topic": "Sequential Clauses",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 57,
+      "tsv_topic": "Simultaneous Clauses",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 58,
+      "tsv_topic": "Background Clauses",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 59,
+      "tsv_topic": "Goal or Purpose Statement",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 60,
+      "tsv_topic": "Reason-Result Clauses",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 61,
+      "tsv_topic": "Contrast Clauses",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 62,
+      "tsv_topic": "Factual Conditions",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 63,
+      "tsv_topic": "Contrary-to-Fact Conditions",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 64,
+      "tsv_topic": "Hypothetical Conditions",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 65,
+      "tsv_topic": "Exception Clauses",
+      "tsv_first_col": "",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 66,
+      "tsv_topic": "QUOTES",
+      "tsv_first_col": "T.7.5",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 68,
+      "tsv_topic": "Direct and Indirect Quotations.",
+      "tsv_first_col": "T.7.5.2",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 71,
+      "tsv_topic": "WRITING STYLES (Discourse)",
+      "tsv_first_col": "T.7.6",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 72,
+      "tsv_topic": "Types of Writing",
+      "tsv_first_col": "T.7.6.1",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 74,
+      "tsv_topic": "End of Story.",
+      "tsv_first_col": "T.7.6.4",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 84,
+      "tsv_topic": "TRANSLATION ISSUES",
+      "tsv_first_col": "T.7.7",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 87,
+      "tsv_topic": "UNKNOWNS",
+      "tsv_first_col": "T.7.8",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 103,
+      "tsv_topic": "BIBLCIAL IMAGERY",
+      "tsv_first_col": "T.7.9",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 105,
+      "tsv_topic": "Biblical Imagery - Common Patterns",
+      "tsv_first_col": "T.7.9.2",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 106,
+      "tsv_topic": "Biblical Imagery - Common Metonymies",
+      "tsv_first_col": "T.7.9.3",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 107,
+      "tsv_topic": "Biblical Imagery - Simple Metaphors",
+      "tsv_first_col": "T.7.9.4",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 108,
+      "tsv_topic": "Biblical Imagery - Extended Metaphors",
+      "tsv_first_col": "T.7.9.5",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 109,
+      "tsv_topic": "Biblical Imagery - Complex Metaphors",
+      "tsv_first_col": "T.7.9.6",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 110,
+      "tsv_topic": "Biblical Imagery - Common Metaphors in the Bible",
+      "tsv_first_col": "T.7.9.7",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    },
+    {
+      "row": 111,
+      "tsv_topic": "Biblical Imagery - Cultural Models",
+      "tsv_first_col": "T.7.9.11",
+      "available_titles": [
+        "Finding Answers",
+        "Gateway Languages Strategy",
+        "Open License",
+        "Translation Guidelines",
+        "Statement of Faith"
+      ]
+    }
+  ],
+  "database_titles": [
+    "Finding Answers",
+    "Gateway Languages Strategy",
+    "Open License",
+    "Translation Guidelines",
+    "Statement of Faith",
+    "The unfoldingWord Project",
+    "Why We Translate the Bible",
+    "Introduction to unfoldingWord\u00ae Translation Academy",
+    "Types of Things to Check",
+    "Steps for Quality Checkers",
+    "Kinds of Written Back Translations",
+    "The Back Translator",
+    "The Purpose of the Back Translation",
+    "Kinds of Back Translations",
+    "Guidelines for Creating a Good Back Translation",
+    "Back Translation",
+    "Complete Versification",
+    "translationNotes Check in tC",
+    "Team Oral Chunk Check",
+    "Consistent Spelling",
+    "Self-Assessment Rubric",
+    "Consistent Punctuation",
+    "Publishing",
+    "Oral Partner Check",
+    "Other Methods",
+    "Natural Translation",
+    "Questions for Quality Checkers",
+    "Quality Checker Evaluation Form",
+    "Checking the Translation for Clarity and Naturalness",
+    "Introduction to Translation Checking",
+    "Introduction to the Checking Manual",
+    "translationWords Check in tC",
+    "Section Headings",
+    "Affirmation of Accuracy and Community Acceptance",
+    "The Goal of Checking",
+    "How to Check for Good Formatting",
+    "Complete Translation",
+    "Language Community Evaluation Questions",
+    "Clear Translation",
+    "Accuracy Checking by Church Leaders",
+    "Checking Authority and Process",
+    "Appropriate Alphabet",
+    "Alignment Checking",
+    "Checking the Translation for Accuracy",
+    "Acceptable Style",
+    "Translation Overview",
+    "How to Share Content",
+    "Setting Up translationStudio",
+    "Setting Up A Translation Team",
+    "Setting Up translationCore\u00ae",
+    "Introduction to the Process Manual",
+    "Training Before Translation Begins",
+    "Training Before Checking Begins",
+    "Choosing a Translation Platform",
+    "Introduction to Distribution",
+    "Introduction to Publishing",
+    "Symbolic Language",
+    "Quotations and Quote Margins",
+    "Proverbs",
+    "Pronouns \u2014 When to Use Them",
+    "Politeness",
+    "Poetry",
+    "Introduction of New and Old Participants",
+    "Oath Formulas",
+    "Introduction of a New Event",
+    "Writing Styles",
+    "End of Story",
+    "Decisions for Writing Your Language",
+    "Background Information",
+    "Symbolic Prophecy",
+    "Choosing What to Translate",
+    "What is Translation",
+    "Word for Word Substitution",
+    "Verse Bridges",
+    "How to Use the ULT and UST when Translating the Bible",
+    "Translate Unknowns",
+    "Copy or Borrow Words",
+    "Translate for Meaning",
+    "Textual Variants",
+    "Terms to Know",
+    "Irregular Use of Tenses",
+    "Symbolic Action",
+    "Source Texts and Version Numbers",
+    "Choosing a Source Text",
+    "Copyrights, Licensing, and Source Texts",
+    "Re-telling the Meaning",
+    "The Translation Process",
+    "Problems with Literal Translations",
+    "Unusual Uses of the Plural",
+    "The Original and Source Languages",
+    "Ordinal Numbers",
+    "Numbers",
+    "How to Translate Names",
+    "More about Translation",
+    "Original Manuscripts",
+    "Introduction to the Translation Manual",
+    "Literal Translations",
+    "Levels of Meaning",
+    "Kinship",
+    "Making a Key Terms Spreadsheet",
+    "Help with Translating",
+    "Hebrew Months",
+    "Fractions",
+    "unfoldingWord\u00ae Literal Text (ULT) and unfoldingWord\u00ae Simplified Text (UST) Formatting Signals",
+    "The Importance of Form",
+    "Meaning-Based Translations",
+    "Discover the Meaning of the Text",
+    "Chapter and Verse Numbers",
+    "Biblical Weight",
+    "Biblical Volume",
+    "Biblical Money",
+    "Blessings",
+    "Structure of the Bible",
+    "Biblical Distance",
+    "Alphabet Development",
+    "Alphabet/Orthography",
+    "How to Aim Your Bible Translation",
+    "Using unfoldingWord\u00ae Translation Words",
+    "Using the unfoldingWord\u00ae Translation Notes",
+    "Notes with Synonyms and Equivalent Phrases",
+    "Using unfoldingWord\u00ae Translation Questions",
+    "Notes with Probable or Possible Meanings",
+    "Notes for Long ULT Phrases",
+    "Notes with Links",
+    "Notes that Identify Indirect and Direct Quotes",
+    "Notes that Identify Figures of Speech",
+    "Notes that Explain",
+    "Notes with Definitions",
+    "Connecting Statement and General Information in the Notes",
+    "Notes that Clarify the UST Translation",
+    "Notes that have Alternate Meanings",
+    "Notes with Alternate Translations",
+    "Translator Qualifications",
+    "Translating Son and Father",
+    "Son of God and God the Father",
+    "Create Ongoing Translations",
+    "Create Natural Translations",
+    "The Qualities of a Good Translation",
+    "Create Historical Translations",
+    "Create Faithful Translations",
+    "Create Equal Translations",
+    "Create Collaborative Translations",
+    "Create Clear Translations",
+    "Create Church-Approved Translations",
+    "Create Authoritative Translations",
+    "Create Accurate Translations",
+    "Honorifics",
+    "Connecting Words and Phrases",
+    "Connect \u2014 Simultaneous Time Relationship",
+    "Connect \u2014 Sequential Time Relationship",
+    "Connect \u2014 Background Information",
+    "Connect \u2014 Reason-and-Result Relationship",
+    "Connect \u2014 Goal (Purpose) Relationship",
+    "Connect \u2014 Contrast Relationship",
+    "Connect \u2014 Exception Clauses",
+    "Connect \u2014 Hypothetical Conditions",
+    "Connect \u2014 Factual Conditions",
+    "Connect \u2014 Contrary to Fact Conditions",
+    "Collective Nouns",
+    "First Draft",
+    "File Formats",
+    "Forms of \u2018You\u2019 \u2014 Singular",
+    "Forms of \u2018You\u2019 \u2014 Formal or Informal",
+    "Forms of \u2018You\u2019 \u2014 Dual/Plural",
+    "Singular Pronouns that refer to Groups",
+    "Forms of You",
+    "Verbs",
+    "Simple Metaphor",
+    "Sentence Types",
+    "Sentence Structure",
+    "Reflexive Pronouns",
+    "Reduplication",
+    "Quotes within Quotes",
+    "Quote Markings",
+    "Direct and Indirect Quotations",
+    "Pronouns",
+    "Possession",
+    "Predictive Past",
+    "Parts of Speech",
+    "Parallelism",
+    "Parables",
+    "Word Order",
+    "Nominal Adjectives",
+    "Merism",
+    "Litotes",
+    "Litany",
+    "Figures of Speech",
+    "Information Structure",
+    "Third-Person Imperatives",
+    "Imperatives \u2014 Other Uses",
+    "Idiom",
+    "Hypothetical Situations",
+    "Hendiadys",
+    "Grammar Topics",
+    "Go and Come",
+    "Generic Noun Phrases",
+    "When Masculine Words Include Women",
+    "When to Keep Information Implicit",
+    "Making Assumed Knowledge and Implicit Information Explicit",
+    "Assumed Knowledge and Implicit Information",
+    "Biblical Imagery \u2014 Extended Metaphors",
+    "Exclusive and Inclusive \u2018We\u2019",
+    "Exclamations",
+    "Order of Events",
+    "Euphemism",
+    "Ellipsis",
+    "Doublet",
+    "Double Negatives",
+    "Distinguishing Versus Informing or Reminding",
+    "Statements \u2014 Other Uses",
+    "Crowd",
+    "Complex Metaphor",
+    "Aside",
+    "Active or Passive",
+    "Abstract Nouns",
+    "First, Second or Third Person",
+    "Choosing a Translation Team",
+    "Choosing a Translation Style",
+    "Biblical Imagery \u2014 Plants",
+    "Biblical Imagery \u2014 Natural Phenomena",
+    "Biblical Imagery \u2014 Cultural Models",
+    "Biblical Imagery \u2014 Common Metonymies",
+    "Biblical Imagery \u2014 Common Patterns",
+    "Biblical Imagery \u2014 Man-made Objects",
+    "Biblical Imagery \u2014 Human Behavior",
+    "Biblical Imagery \u2014 Body Parts and Human Qualities",
+    "Biblical Imagery \u2014 Farming",
+    "Biblical Imagery \u2014 Animals",
+    "Biblical Imagery",
+    "Apostrophe",
+    "Personification",
+    "Synecdoche",
+    "Rhetorical Question",
+    "Irony",
+    "Hyperbole",
+    "Metonymy",
+    "Simile",
+    "Metaphor",
+    "Form and Meaning"
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "database_schema": {
+    "object": "database",
+    "id": "340b5f5c-4f57-4a6a-bd21-5e5b30aac26c",
+    "cover": null,
+    "icon": null,
+    "created_time": "2025-07-15T18:56:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "e4ca79c9-b6dc-4549-bc2b-6cb96e6c853c"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "e4ca79c9-b6dc-4549-bc2b-6cb96e6c853c"
+    },
+    "last_edited_time": "2025-07-15T19:31:00.000Z",
+    "title": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Translation Academy DB",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Translation Academy DB",
+        "href": null
+      }
+    ],
+    "description": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Complete database structure for unfoldingWord Translation Academy content, organized by manuals, sections, and modules with dependencies and relationships",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Complete database structure for unfoldingWord Translation Academy content, organized by manuals, sections, and modules with dependencies and relationships",
+        "href": null
+      }
+    ],
+    "is_inline": false,
+    "properties": {
+      "Slug": {
+        "id": "AzQ%5E",
+        "name": "Slug",
+        "type": "rich_text",
+        "rich_text": {}
+      },
+      "Sequence Order": {
+        "id": "BHct",
+        "name": "Sequence Order",
+        "type": "number",
+        "number": {
+          "format": "number"
+        }
+      },
+      "Status": {
+        "id": "C%7Dlz",
+        "name": "Status",
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "id": "834c38b5-0954-4e72-8cdb-1b523ad14718",
+              "name": "Complete",
+              "color": "green",
+              "description": null
+            },
+            {
+              "id": "b84f02fa-53fb-4a3b-9ebd-d471be2f141e",
+              "name": "In Progress",
+              "color": "yellow",
+              "description": null
+            },
+            {
+              "id": "e52d9da3-810b-492a-8836-d966262df078",
+              "name": "Needs Review",
+              "color": "orange",
+              "description": null
+            },
+            {
+              "id": "92f7f66f-aed9-416a-88d6-9e54ef92996d",
+              "name": "Planned",
+              "color": "blue",
+              "description": null
+            }
+          ]
+        }
+      },
+      "Difficulty Level": {
+        "id": "DFH%3A",
+        "name": "Difficulty Level",
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "id": "b6b79af1-654d-47f7-9705-1c13b20bfa46",
+              "name": "Beginner",
+              "color": "green",
+              "description": null
+            },
+            {
+              "id": "93357f98-d7cf-4637-a246-d1b736ce8418",
+              "name": "Intermediate",
+              "color": "yellow",
+              "description": null
+            },
+            {
+              "id": "17b6d411-3723-40c7-bda7-934f2fa620ad",
+              "name": "Advanced",
+              "color": "red",
+              "description": null
+            }
+          ]
+        }
+      },
+      "Key Concepts": {
+        "id": "Hb~U",
+        "name": "Key Concepts",
+        "type": "multi_select",
+        "multi_select": {
+          "options": [
+            {
+              "id": "71d2d0b3-2530-4447-958b-869a8777c6ba",
+              "name": "Translation Principles",
+              "color": "blue",
+              "description": null
+            },
+            {
+              "id": "348acf3f-7435-43f5-ab11-36f319efbe12",
+              "name": "Team Management",
+              "color": "green",
+              "description": null
+            },
+            {
+              "id": "d34d5620-9401-415c-b2bf-bfc6480b54ff",
+              "name": "Quality Assurance",
+              "color": "purple",
+              "description": null
+            },
+            {
+              "id": "0daa0e26-030e-4f5b-a786-61fa90354fda",
+              "name": "Figures of Speech",
+              "color": "orange",
+              "description": null
+            },
+            {
+              "id": "41ce54ca-a97e-4a59-b067-e3f1da35bacc",
+              "name": "Grammar",
+              "color": "yellow",
+              "description": null
+            },
+            {
+              "id": "9795e787-2447-4b47-aa2b-bb4dabefdbea",
+              "name": "Cultural Context",
+              "color": "red",
+              "description": null
+            },
+            {
+              "id": "d0f3171b-6e98-46a1-8881-8aa97d7cc5d4",
+              "name": "Technology Tools",
+              "color": "pink",
+              "description": null
+            },
+            {
+              "id": "dae65739-e0d8-4919-b638-4eb0f0c71be2",
+              "name": "Church Involvement",
+              "color": "brown",
+              "description": null
+            },
+            {
+              "id": "984f7649-00b4-41ba-bec7-bcfa97bd326c",
+              "name": "Source Texts",
+              "color": "gray",
+              "description": null
+            }
+          ]
+        }
+      },
+      "Learning Objective": {
+        "id": "JQ%3BI",
+        "name": "Learning Objective",
+        "type": "rich_text",
+        "rich_text": {}
+      },
+      "Manual": {
+        "id": "Ku%7B%5D",
+        "name": "Manual",
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "id": "0496cc3a-d209-402d-9fa5-6adf5cabccff",
+              "name": "Introduction",
+              "color": "blue",
+              "description": null
+            },
+            {
+              "id": "cfb0fd4f-a993-4d14-a665-ba5c3d317b9f",
+              "name": "Process Manual",
+              "color": "green",
+              "description": null
+            },
+            {
+              "id": "6b474940-5499-49ea-9dfc-23a430d82594",
+              "name": "Translation Manual",
+              "color": "orange",
+              "description": null
+            },
+            {
+              "id": "92db90d7-3e60-41d6-9689-7efd8fd96e38",
+              "name": "Checking Manual",
+              "color": "purple",
+              "description": null
+            }
+          ]
+        }
+      },
+      "YAML Config": {
+        "id": "%5B%5DKu",
+        "name": "YAML Config",
+        "type": "rich_text",
+        "rich_text": {}
+      },
+      "Summary": {
+        "id": "%5Bey%3F",
+        "name": "Summary",
+        "type": "rich_text",
+        "rich_text": {}
+      },
+      "Repository Path": {
+        "id": "_VaD",
+        "name": "Repository Path",
+        "type": "rich_text",
+        "rich_text": {}
+      },
+      "Prerequisites": {
+        "id": "bO%5C~",
+        "name": "Prerequisites",
+        "type": "relation",
+        "relation": {
+          "database_id": "340b5f5c-4f57-4a6a-bd21-5e5b30aac26c",
+          "type": "single_property",
+          "single_property": {}
+        }
+      },
+      "Directory Path": {
+        "id": "ehZg",
+        "name": "Directory Path",
+        "type": "rich_text",
+        "rich_text": {}
+      },
+      "Original URL": {
+        "id": "gz%5C%3D",
+        "name": "Original URL",
+        "type": "url",
+        "url": {}
+      },
+      "Parent Section": {
+        "id": "kbMZ",
+        "name": "Parent Section",
+        "type": "relation",
+        "relation": {
+          "database_id": "340b5f5c-4f57-4a6a-bd21-5e5b30aac26c",
+          "type": "single_property",
+          "single_property": {}
+        }
+      },
+      "TOC Position": {
+        "id": "lf%3F%5B",
+        "name": "TOC Position",
+        "type": "rich_text",
+        "rich_text": {}
+      },
+      "Level": {
+        "id": "lyf%7C",
+        "name": "Level",
+        "type": "number",
+        "number": {
+          "format": "number"
+        }
+      },
+      "Translation Status": {
+        "id": "m%60Wc",
+        "name": "Translation Status",
+        "type": "multi_select",
+        "multi_select": {
+          "options": [
+            {
+              "id": "efaf15cd-7b88-4363-94c6-61d8e1d66d2c",
+              "name": "Available in GL",
+              "color": "green",
+              "description": null
+            },
+            {
+              "id": "4b7daf53-126e-465f-bcda-0776456bc370",
+              "name": "Needs Translation",
+              "color": "red",
+              "description": null
+            },
+            {
+              "id": "65a5f94c-1a65-4bb4-87eb-0c4f57a7f3f7",
+              "name": "In Translation",
+              "color": "yellow",
+              "description": null
+            }
+          ]
+        }
+      },
+      "Related Topics": {
+        "id": "pvUJ",
+        "name": "Related Topics",
+        "type": "relation",
+        "relation": {
+          "database_id": "340b5f5c-4f57-4a6a-bd21-5e5b30aac26c",
+          "type": "single_property",
+          "single_property": {}
+        }
+      },
+      "Page Number": {
+        "id": "sl%3D%60",
+        "name": "Page Number",
+        "type": "number",
+        "number": {
+          "format": "number"
+        }
+      },
+      "Last Updated": {
+        "id": "x%5C%3Ew",
+        "name": "Last Updated",
+        "type": "last_edited_time",
+        "last_edited_time": {}
+      },
+      "Target Audience": {
+        "id": "z%5EYe",
+        "name": "Target Audience",
+        "type": "multi_select",
+        "multi_select": {
+          "options": [
+            {
+              "id": "baac4cab-0600-4080-a20f-d5e90ec120da",
+              "name": "Translators",
+              "color": "blue",
+              "description": null
+            },
+            {
+              "id": "9ae0fbed-daa3-4873-9c3d-677f6f427a18",
+              "name": "Team Leaders",
+              "color": "green",
+              "description": null
+            },
+            {
+              "id": "d27d727e-4db4-4b09-bd10-c5a918fa1bdb",
+              "name": "Checkers",
+              "color": "purple",
+              "description": null
+            },
+            {
+              "id": "a4fc7287-99cc-4a5c-8e7e-9ed28983c931",
+              "name": "Trainers",
+              "color": "orange",
+              "description": null
+            },
+            {
+              "id": "27949096-06fc-4d6c-974e-a162921ea86d",
+              "name": "Church Leaders",
+              "color": "yellow",
+              "description": null
+            }
+          ]
+        }
+      },
+      "Content Type": {
+        "id": "%7BBWG",
+        "name": "Content Type",
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "id": "6e0e7e1f-50a1-48ed-b25b-54ef09648b4f",
+              "name": "Manual",
+              "color": "red",
+              "description": null
+            },
+            {
+              "id": "4a7418e4-e1d1-46b6-bb42-c9e2feca6420",
+              "name": "Section",
+              "color": "yellow",
+              "description": null
+            },
+            {
+              "id": "e58118af-abc4-47f1-90d8-03de7f9a06cb",
+              "name": "Module",
+              "color": "blue",
+              "description": null
+            },
+            {
+              "id": "6e9c5e69-8901-4792-a3c4-dcf2e0f9ff08",
+              "name": "Topic",
+              "color": "green",
+              "description": null
+            }
+          ]
+        }
+      },
+      "Title": {
+        "id": "title",
+        "name": "Title",
+        "type": "title",
+        "title": {}
+      }
+    },
+    "parent": {
+      "type": "workspace",
+      "workspace": true
+    },
+    "url": "https://www.notion.so/340b5f5c4f574a6abd215e5b30aac26c",
+    "public_url": null,
+    "archived": false,
+    "in_trash": false,
+    "request_id": "05bdfbe1-a713-4c95-90e3-cc275d40e97c"
+  },
+  "sample_entries": {
+    "object": "list",
+    "results": [],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "page_or_database",
+    "page_or_database": {},
+    "request_id": "7d480011-5ffa-4b02-abfa-0f231e689da9"
+  },
+  "wip_page": {
+    "object": "page",
+    "id": "1c372d5a-f2de-80e0-8b11-cd7748a1467d",
+    "created_time": "2025-03-27T19:06:00.000Z",
+    "last_edited_time": "2025-07-15T18:33:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "e4ca79c9-b6dc-4549-bc2b-6cb96e6c853c"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3998b58e-3352-4c5a-a0c3-ad3c8336fd0a"
+    },
+    "cover": {
+      "type": "external",
+      "external": {
+        "url": "https://images.unsplash.com/photo-1532543307581-8b01a7ff954f?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb"
+      }
+    },
+    "icon": {
+      "type": "emoji",
+      "emoji": "\ud83d\udcd1"
+    },
+    "parent": {
+      "type": "workspace",
+      "workspace": true
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "translationAcademy-WIP",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "translationAcademy-WIP",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/translationAcademy-WIP-1c372d5af2de80e08b11cd7748a1467d",
+    "public_url": null,
+    "request_id": "2b2602f4-0ea2-4ea5-ae74-eb9d4918bfa8"
+  }
+}

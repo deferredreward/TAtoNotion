@@ -1,0 +1,1664 @@
+{
+  "page_id": "23272d5af2de81a88589e901ea36436a",
+  "page_properties": {
+    "object": "page",
+    "id": "23272d5a-f2de-81a8-8589-e901ea36436a",
+    "created_time": "2025-07-16T15:23:00.000Z",
+    "last_edited_time": "2025-07-17T15:25:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "e4ca79c9-b6dc-4549-bc2b-6cb96e6c853c"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "340b5f5c-4f57-4a6a-bd21-5e5b30aac26c"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "OL Translator Learning  Outcome": {
+        "id": "%3BHp%3F",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Choose the strategy most suitable for OL. 1. Keep the biblical measure in the text and metric equivalents in footnote. 2. Use metric equivalent in main text and biblical measure in footnote.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Choose the strategy most suitable for OL. 1. Keep the biblical measure in the text and metric equivalents in footnote. 2. Use metric equivalent in main text and biblical measure in footnote.",
+            "href": null
+          }
+        ]
+      },
+      "Slug": {
+        "id": "AzQ%5E",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "translate-bweight",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "translate-bweight",
+            "href": null
+          }
+        ]
+      },
+      "Sequence Order": {
+        "id": "BHct",
+        "type": "number",
+        "number": 1
+      },
+      "Status": {
+        "id": "C%7Dlz",
+        "type": "select",
+        "select": {
+          "id": "834c38b5-0954-4e72-8cdb-1b523ad14718",
+          "name": "Complete",
+          "color": "green"
+        }
+      },
+      "Difficulty Level": {
+        "id": "DFH%3A",
+        "type": "select",
+        "select": {
+          "id": "b6b79af1-654d-47f7-9705-1c13b20bfa46",
+          "name": "Beginner",
+          "color": "green"
+        }
+      },
+      "Key Concepts": {
+        "id": "Hb~U",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "71d2d0b3-2530-4447-958b-869a8777c6ba",
+            "name": "Translation Principles",
+            "color": "blue"
+          },
+          {
+            "id": "984f7649-00b4-41ba-bec7-bcfa97bd326c",
+            "name": "Source Texts",
+            "color": "gray"
+          }
+        ]
+      },
+      "Learning Objective": {
+        "id": "JQ%3BI",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "### Description\n\nThe following terms are the most common units of weight in the Bible. The term \u201cshekel\u201d means \u201cweight,\u201d and many other weights are described in terms of the shekel. Some of these weig",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "### Description\n\nThe following terms are the most common units of weight in the Bible. The term \u201cshekel\u201d means \u201cweight,\u201d and many other weights are described in terms of the shekel. Some of these weig",
+            "href": null
+          }
+        ]
+      },
+      "Manual": {
+        "id": "Ku%7B%5D",
+        "type": "select",
+        "select": {
+          "id": "6b474940-5499-49ea-9dfc-23a430d82594",
+          "name": "Translation Manual",
+          "color": "orange"
+        }
+      },
+      "GLTN Learner Outcome": {
+        "id": "Mlo%7B",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "usually no Note, relies on GST",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "usually no Note, relies on GST",
+            "href": null
+          }
+        ]
+      },
+      "Topic translationAcademy": {
+        "id": "OFjk",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Biblical Weight",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Biblical Weight",
+            "href": null
+          }
+        ]
+      },
+      "Module Tracking #": {
+        "id": "RjxP",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "T.7.8.9",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "T.7.8.9",
+            "href": null
+          }
+        ]
+      },
+      "GLT Learner Outcome": {
+        "id": "Uwhi",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Keeps biblical units of measure",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Keeps biblical units of measure",
+            "href": null
+          }
+        ]
+      },
+      "YAML Config": {
+        "id": "%5B%5DKu",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "{\n  \"dependencies\": [],\n  \"recommended\": [\n    \"translate-decimal\",\n    \"translate-fraction\"\n  ]\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "{\n  \"dependencies\": [],\n  \"recommended\": [\n    \"translate-decimal\",\n    \"translate-fraction\"\n  ]\n}",
+            "href": null
+          }
+        ]
+      },
+      "Summary": {
+        "id": "%5Bey%3F",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How can I translate the values of weight in the Bible?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How can I translate the values of weight in the Bible?",
+            "href": null
+          }
+        ]
+      },
+      "Repository Path": {
+        "id": "_VaD",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "en_ta/translate/translate-bweight",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "en_ta/translate/translate-bweight",
+            "href": null
+          }
+        ]
+      },
+      "Examples": {
+        "id": "%60tK%3E",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2 Samuel 21:16, Exodus 28:29",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2 Samuel 21:16, Exodus 28:29",
+            "href": null
+          }
+        ]
+      },
+      "Prerequisites": {
+        "id": "bO%5C~",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson Plan": {
+        "id": "dJL%3E",
+        "type": "url",
+        "url": null
+      },
+      "Directory Path": {
+        "id": "ehZg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Original URL": {
+        "id": "gz%5C%3D",
+        "type": "url",
+        "url": "https://git.door43.org/unfoldingWord/en_ta/src/branch/master/translate/translate-bweight/01.md"
+      },
+      "Parent Section": {
+        "id": "kbMZ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "TOC Position": {
+        "id": "lf%3F%5B",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Level": {
+        "id": "lyf%7C",
+        "type": "number",
+        "number": null
+      },
+      "Translation Status": {
+        "id": "m%60Wc",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "efaf15cd-7b88-4363-94c6-61d8e1d66d2c",
+            "name": "Available in GL",
+            "color": "green"
+          }
+        ]
+      },
+      "GST Learner Outcome": {
+        "id": "mymP",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Uses metric equivalents",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Uses metric equivalents",
+            "href": null
+          }
+        ]
+      },
+      "Related Topics": {
+        "id": "pvUJ",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "23272d5a-f2de-819b-bd99-eaaa194e7c7c"
+          }
+        ],
+        "has_more": false
+      },
+      "Page Number": {
+        "id": "sl%3D%60",
+        "type": "number",
+        "number": null
+      },
+      "Last Updated": {
+        "id": "x%5C%3Ew",
+        "type": "last_edited_time",
+        "last_edited_time": "2025-07-17T15:25:00.000Z"
+      },
+      "Target Audience": {
+        "id": "z%5EYe",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "baac4cab-0600-4080-a20f-d5e90ec120da",
+            "name": "Translators",
+            "color": "blue"
+          }
+        ]
+      },
+      "Content Type": {
+        "id": "%7BBWG",
+        "type": "select",
+        "select": {
+          "id": "6e9c5e69-8901-4792-a3c4-dcf2e0f9ff08",
+          "name": "Topic",
+          "color": "green"
+        }
+      },
+      "Title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Biblical Weight",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Biblical Weight",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Biblical-Weight-23272d5af2de81a88589e901ea36436a",
+    "public_url": null,
+    "request_id": "4cac0aab-f47d-4405-ac0c-4904611fc415"
+  },
+  "blocks": [
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8138-8407-f58d572697e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Description",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Description",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8106-8a15-ebe8438261e3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The following terms are the most common units of weight in the Bible. The term \u201cshekel\u201d means \u201cweight,\u201d and many other weights are described in terms of the shekel. Some of these weights were used for money. The metric values in the table below are not exactly equal to the biblical measures. The biblical measures differed in exact amount from time to time and place to place. The equivalents below are only an attempt to give an average measurement.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The following terms are the most common units of weight in the Bible. The term \u201cshekel\u201d means \u201cweight,\u201d and many other weights are described in terms of the shekel. Some of these weights were used for money. The metric values in the table below are not exactly equal to the biblical measures. The biblical measures differed in exact amount from time to time and place to place. The equivalents below are only an attempt to give an average measurement.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8128-9b5f-d4fb7e20e7ee",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "table",
+      "table": {
+        "table_width": 4,
+        "has_column_header": true,
+        "has_row_header": false
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8185-9cdb-e3da2157ac5c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Translation Principles",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Translation Principles",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8180-aabd-ccf877798ac0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The people in the Bible did not use modern measures such as meters, liters, and kilograms. Using the original measures can help readers know that the Bible really was written long ago in a time when people used those measures.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The people in the Bible did not use modern measures such as meters, liters, and kilograms. Using the original measures can help readers know that the Bible really was written long ago in a time when people used those measures.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-816d-b84f-c7fc08ef19d4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Using modern measures can help readers understand the text more easily.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Using modern measures can help readers understand the text more easily.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8198-a254-e6692a00abf8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Whatever measure you use, it would be good, if possible, to tell about the other kind of measure in the text or a footnote.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Whatever measure you use, it would be good, if possible, to tell about the other kind of measure in the text or a footnote.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8150-b833-f6601a4a5f5e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If you do not use the biblical measures, try not to give the readers the idea that the measurements are exact. For example, if you translate one gerah as \u201c.57 grams,\u201d readers might think that the measurement is exact. It would be better to say \u201chalf a gram.\u201d",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If you do not use the biblical measures, try not to give the readers the idea that the measurements are exact. For example, if you translate one gerah as \u201c.57 grams,\u201d readers might think that the measurement is exact. It would be better to say \u201chalf a gram.\u201d",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-81b9-bf5c-f0cd8160ed0c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sometimes it can be helpful to use the word \u201cabout\u201d to show that a measurement is not exact. For example, 2 Samuel 21:16 says that Goliath\u2019s spear weighed 300 shekels. Instead of translating this as \u201c3300 grams\u201d or \u201c3.3 kilograms,\u201d it can be translated as \u201cabout three and one half kilograms.\u201d",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sometimes it can be helpful to use the word \u201cabout\u201d to show that a measurement is not exact. For example, 2 Samuel 21:16 says that Goliath\u2019s spear weighed 300 shekels. Instead of translating this as \u201c3300 grams\u201d or \u201c3.3 kilograms,\u201d it can be translated as \u201cabout three and one half kilograms.\u201d",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8188-b2be-d049e438586c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "When God tells people how much something should weigh, and when people use those weights, do not say \u201cabout\u201d in the translation. Otherwise, it will give the impression that God did not care exactly how much the thing should weigh.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "When God tells people how much something should weigh, and when people use those weights, do not say \u201cabout\u201d in the translation. Otherwise, it will give the impression that God did not care exactly how much the thing should weigh.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-815e-a1cd-f95dc2a6a90c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Translation Strategies",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Translation Strategies",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-817d-b240-cbd11cced79d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Use the measurements from the ULT. These are the same kinds of measurements that the original writers used. Spell them in a way that is similar to the way they sound or are spelled in the ULT. (See ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Use the measurements from the ULT. These are the same kinds of measurements that the original writers used. Spell them in a way that is similar to the way they sound or are spelled in the ULT. (See ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Copy or Borrow Words",
+              "link": {
+                "url": "../translate-transliterate/01.md"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Copy or Borrow Words",
+            "href": "../translate-transliterate/01.md"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-81c2-9ddf-e2bec77e5ff9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Use the metric measurements given in the UST. The translators of the UST have already figured how to represent the amounts in the metric system.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Use the metric measurements given in the UST. The translators of the UST have already figured how to represent the amounts in the metric system.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-817b-87ef-c8c4faf19461",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Use measurements that are already used in your language. In order to do this, you would need to know how your measurements relate to the metric system and figure out each measurement.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Use measurements that are already used in your language. In order to do this, you would need to know how your measurements relate to the metric system and figure out each measurement.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-818a-bc54-c1a2d0d124dd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Use the measurements from the ULT and include measurements that your people know in the text or a note.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Use the measurements from the ULT and include measurements that your people know in the text or a note.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8161-9803-d1927d1828f8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Use measurements that your people know, and include the measurements from the ULT in the text or in a note.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Use measurements that your people know, and include the measurements from the ULT in the text or in a note.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-81cc-b9be-caa452cf7722",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Translation Strategies Applied",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Translation Strategies Applied",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8100-86a2-c6713fe719cd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The strategies are all applied to Exodus 38:29 below.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The strategies are all applied to Exodus 38:29 below.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8191-8a9e-e9f103e24147",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "quote",
+      "quote": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The bronze from the wave offering weighed ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The bronze from the wave offering weighed ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "70 talents and 2,400 shekels",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "70 talents and 2,400 shekels",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". (Exodus 38:29 ULT)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". (Exodus 38:29 ULT)",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-81b7-ad85-ce247cc02863",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "e4ca79c9-b6dc-4549-bc2b-6cb96e6c853c"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Use the measurements from the ULT. These are the same kinds of measurements that the original writers used. Spell them in a way that is similar to the way they sound or are spelled in the ULT. (See ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Use the measurements from the ULT. These are the same kinds of measurements that the original writers used. Spell them in a way that is similar to the way they sound or are spelled in the ULT. (See ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Copy or Borrow Words",
+              "link": {
+                "url": "../translate-transliterate/01.md"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Copy or Borrow Words",
+            "href": "../translate-transliterate/01.md"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".) ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".) ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8125-9602-e9f8fc189055",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "e4ca79c9-b6dc-4549-bc2b-6cb96e6c853c"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Use the metric measurements given in the UST. The translators of the UST have already figured how to represent the amounts in the metric system. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Use the metric measurements given in the UST. The translators of the UST have already figured how to represent the amounts in the metric system. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8104-af23-e555876ae6bb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "e4ca79c9-b6dc-4549-bc2b-6cb96e6c853c"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Use measurements that are already used in your language. In order to do this you would need to know how your measurements relate to the metric system and figure out each measurement. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Use measurements that are already used in your language. In order to do this you would need to know how your measurements relate to the metric system and figure out each measurement. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-811f-82d9-d0aeb9082a35",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "e4ca79c9-b6dc-4549-bc2b-6cb96e6c853c"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Use the measurements from the ULT and include measurements that your people know in the text or a footnote. The following shows both measurements in the text. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Use the measurements from the ULT and include measurements that your people know in the text or a footnote. The following shows both measurements in the text. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-81f8-9d1b-e2bb055aa12e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "e4ca79c9-b6dc-4549-bc2b-6cb96e6c853c"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Use measurements that your people know, and include the measurements from the ULT in the text or in a footnote. The following shows the ULT measurements in notes.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Use measurements that your people know, and include the measurements from the ULT in the text or in a footnote. The following shows the ULT measurements in notes.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "object": "block",
+      "id": "23372d5a-f2de-8182-b9ff-c22b45b1c9bd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "23272d5a-f2de-81a8-8589-e901ea36436a"
+      },
+      "created_time": "2025-07-17T15:23:00.000Z",
+      "last_edited_time": "2025-07-17T15:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "9e4f0acc-2ec6-4090-907e-f9abeae342ac"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "e4ca79c9-b6dc-4549-bc2b-6cb96e6c853c"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The footnote would look like: ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The footnote would look like: ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "analysis": {
+    "table_count": 1,
+    "formatting_issues": []
+  }
+}
